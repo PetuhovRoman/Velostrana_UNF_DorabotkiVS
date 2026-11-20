@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9896f883-b050-4215-bf71-4b758f78cf3f">
+  <name>Бонусы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бонусы</value>
+  </synonym>
+  <rootURL>bonus</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="0bea889d-65cf-4572-a593-33df9ce19629">
+    <name>ПолучитьБонусыКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить бонусы клиента</value>
+    </synonym>
+    <template>/getclientbonuses/</template>
+    <methods uuid="e53af0ea-25ba-4c0f-ada2-dd15a0165971">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьБонусыКлиентаGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

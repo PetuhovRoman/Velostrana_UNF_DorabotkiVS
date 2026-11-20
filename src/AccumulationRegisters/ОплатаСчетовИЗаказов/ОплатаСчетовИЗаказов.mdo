@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="069e6e23-783d-466b-ab86-3ca61c36c80f" extendedConfigurationObject="1e4612e7-e50d-4407-ae63-fbfaabb6679d">
+  <producedTypes>
+    <selectionType typeId="537a0ffd-d3d0-49b7-953a-24cee3fe4153" valueTypeId="c5a1bc7c-cb1f-4cb8-bf81-7b6b2344a8fe"/>
+    <listType typeId="a217aeb3-a966-4081-bdf9-e1eb9b15afa1" valueTypeId="bf9623d2-b711-46d6-835b-553593316958"/>
+    <managerType typeId="5c2cc39b-e21e-4c17-853f-93a2faa48c11" valueTypeId="07a4f40f-d145-4b0d-95ad-dbadf8dfb104"/>
+    <recordSetType typeId="693d35b0-1a36-4961-9414-2f0c48073e68" valueTypeId="1906960f-adf5-4c4a-80be-68b80627d87c"/>
+    <recordKeyType typeId="aa7e9ff7-21e4-44bc-9b7f-87d090cf1e96" valueTypeId="04217125-b53a-4626-af7f-986cbe9ec0b3"/>
+    <recordType typeId="24b907e7-28f9-439d-928a-86fdaa0183c8" valueTypeId="74e4849b-c813-4965-a716-6f1956c46d60"/>
+  </producedTypes>
+  <name>ОплатаСчетовИЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+</mdclass:AccumulationRegister>

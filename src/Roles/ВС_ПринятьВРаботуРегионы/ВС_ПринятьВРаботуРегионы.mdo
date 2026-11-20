@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eecd2001-0eb4-4b81-8f37-edc9bc104944">
+  <name>ВС_ПринятьВРаботуРегионы</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС Принять в работу (регионы)</value>
+  </synonym>
+</mdclass:Role>

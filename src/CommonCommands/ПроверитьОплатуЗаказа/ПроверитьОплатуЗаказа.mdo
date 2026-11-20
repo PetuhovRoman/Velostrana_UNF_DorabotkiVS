@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e6b40cd-6319-4cdb-be78-87b721aeeef8">
+  <name>ПроверитьОплатуЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить оплату заказа</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.ЗаказПокупателя</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.АльфаБанк</picture>
+  </picture>
+</mdclass:CommonCommand>

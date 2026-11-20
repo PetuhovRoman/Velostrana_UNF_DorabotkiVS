@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc538da2-efb3-4ccd-9abc-a590ddde9349">
+  <producedTypes>
+    <selectionType typeId="68858d49-a443-489c-83c2-52a459b2845e" valueTypeId="7ae232ed-fdfe-44eb-9206-4e94fb78bbff"/>
+    <listType typeId="cdd44631-6027-49ae-a0f5-0bb71de7992e" valueTypeId="7b78f31a-1880-4714-bd35-e731e70ae1d3"/>
+    <managerType typeId="d060d3a8-9519-4b1a-bd0b-7574a218fe47" valueTypeId="67f29015-24f0-4cdd-95a3-3f6ceac0b3c9"/>
+    <recordSetType typeId="694ecd3d-365d-4cf0-ad6a-164752f388cf" valueTypeId="5aba930b-0c62-41a3-8080-089fcca22c23"/>
+    <recordKeyType typeId="b55fd381-513b-4e20-a12f-ab3fa7ce5276" valueTypeId="e8c722c7-4300-4ab0-837c-97df98c698fb"/>
+    <recordType typeId="4711db5c-7992-46a8-8bfa-99e7bf3321a5" valueTypeId="4c222ae9-6185-463b-9c68-8c2d2a8167a0"/>
+    <recordManagerType typeId="72cf7644-36ac-4646-ac8e-0f0335f42d4a" valueTypeId="363ff83e-944b-483b-95df-60744127bbb3"/>
+  </producedTypes>
+  <name>ДанныеДляРасчетаПоКатегориям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные для расчета по категориям</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8162a8e4-2383-453b-81ca-2bb03423ca99">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2b03ea4c-66f8-4e18-aca6-6927fdc746be">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипСтруктурнойЕдиницы</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыСтруктурныхЕдиниц.EnumValue.Подразделение</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3f2e714b-9cb6-450c-8553-5aa2afd46d8e">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2ceb4178-484a-4e69-8052-f9fb662d766e">
+    <name>КатегорияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

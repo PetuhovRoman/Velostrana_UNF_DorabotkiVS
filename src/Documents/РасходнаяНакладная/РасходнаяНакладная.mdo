@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d57e9c5-9586-4b20-8ce2-65f3a4f67fa9" extendedConfigurationObject="e557f2c9-6893-4523-9b13-07e678b2778a">
+  <producedTypes>
+    <objectType typeId="c5726a29-09ab-443d-b2c4-6b57231638df" valueTypeId="c7d17b64-3454-426f-8785-d400e2a9647e"/>
+    <refType typeId="a9c6b6ea-7946-4c11-b902-59aca93bb794" valueTypeId="a6af1e15-2aab-4ff4-b4af-a42712ad74eb"/>
+    <selectionType typeId="8a5e091b-fea4-4ec7-ba74-2d3cd09839e0" valueTypeId="03c42cca-f318-40fb-a790-d61f458c433d"/>
+    <listType typeId="8c01e54b-e7df-4939-860e-405aff6e49d9" valueTypeId="76301449-7a74-484f-8bbb-203e2fb17230"/>
+    <managerType typeId="5548e8c6-4aa5-4009-a979-c7bda55ea0e0" valueTypeId="e119d491-30a7-4324-8da1-48fe63301370"/>
+  </producedTypes>
+  <name>РасходнаяНакладная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="9913cd8e-f50a-4eb1-9c3c-ab0617f0688d">
+    <name>ИдентификаторЧекаВОчереди</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор чека в очереди</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="c6b93dad-f5f9-44bf-9d3a-95cb0fea252a" extendedConfigurationObject="36bb0974-588b-4d40-8303-a62c9ef316e7">
+    <producedTypes>
+      <objectType typeId="53c82443-9bba-4a75-b9ff-89f9fade7863" valueTypeId="45569b58-f702-48ba-826b-a7acbacac5bd"/>
+      <rowType typeId="517fab7c-64a3-444c-8d17-e469b33c7729" valueTypeId="e5690911-c888-432e-8a86-68aa712f82bd"/>
+    </producedTypes>
+    <name>Предоплата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="e7255ba8-d24a-42f9-87d5-91fdb02ba751" extendedConfigurationObject="1922cbd4-72df-4cac-b023-f9355370b1d8">
+      <name>Документ</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Extended</state>
+            <type>DocumentRef.ЗаказПокупателя</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

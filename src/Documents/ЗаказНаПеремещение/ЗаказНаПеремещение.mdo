@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5062e0b4-b549-400f-9069-665bb8859d39" extendedConfigurationObject="3796c5ec-3508-4ddc-925a-9b47137f26bc">
+  <producedTypes>
+    <objectType typeId="110c539c-ea2b-4733-a172-eccc4b39b938" valueTypeId="9c9a174c-4062-410c-a579-5f8cdf53ff9e"/>
+    <refType typeId="b5903378-f386-4817-a175-a80297e06bf0" valueTypeId="2d07fc5a-8dbc-40f0-8c66-c81678e25213"/>
+    <selectionType typeId="28df3ca5-5bc2-4938-ab47-522802f9aaa0" valueTypeId="895740ee-19b5-4c3d-aa5d-2a1ad77dc3bd"/>
+    <listType typeId="faeeafc5-76e2-4aff-9767-372466e452fa" valueTypeId="09140ac5-d90f-4ac4-be0c-9118710b4831"/>
+    <managerType typeId="36b106a7-eabc-4b1b-838d-4c90aa4349c3" valueTypeId="f7887e75-e41a-4735-8ee7-6937dc5133b8"/>
+  </producedTypes>
+  <name>ЗаказНаПеремещение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

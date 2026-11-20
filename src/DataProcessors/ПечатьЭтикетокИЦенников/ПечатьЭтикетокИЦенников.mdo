@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f80c9248-b9f5-454b-b95d-cc2db6c10fa1" extendedConfigurationObject="484d88a9-bfe1-43e5-b5eb-2e32a8e341bd">
+  <producedTypes>
+    <objectType typeId="770d8fe9-76b3-4efb-a4be-783aa0e69290" valueTypeId="19b5e6f7-afc5-42d0-aa48-931b8a083422"/>
+    <managerType typeId="aaec085a-6c4e-4669-ae40-c441647dc1de" valueTypeId="49917ce0-bdba-4140-87a4-8af4368c7308"/>
+  </producedTypes>
+  <name>ПечатьЭтикетокИЦенников</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <templates uuid="4a92959f-3844-4957-a55a-0e4e921fe0e4" extendedConfigurationObject="3a15c6d5-184f-4f05-a168-1d37e567ffe1">
+    <name>ПоляШаблона</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <template>Extended</template>
+    </extension>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

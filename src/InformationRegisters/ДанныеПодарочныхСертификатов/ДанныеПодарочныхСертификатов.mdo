@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9749d4bb-fde3-4557-a6ee-5e8c26261707">
+  <producedTypes>
+    <selectionType typeId="4ce16218-fe49-4cb8-8bf7-808cb48cb9cc" valueTypeId="05cfa4a0-14f4-4be1-bfe6-dcb6388154e6"/>
+    <listType typeId="e65077b1-ad68-4849-9cbf-a161edc589c6" valueTypeId="737d4153-4e7a-4123-a490-00d728acdc55"/>
+    <managerType typeId="542ef656-6b40-442c-a9de-79c1be47cb9a" valueTypeId="0b21b151-9856-40a8-b478-926adf522b24"/>
+    <recordSetType typeId="a1abca9b-72b9-43a4-87fb-8e269d6559bb" valueTypeId="ab7567c2-6b32-4c80-b30f-a31839a43727"/>
+    <recordKeyType typeId="a87626a6-02b3-41b0-8bac-a06cf8aba07b" valueTypeId="5bf8a951-9cbd-4746-b0c0-76a158078cec"/>
+    <recordType typeId="82010a4f-f3ae-4634-b359-423e1ce06d67" valueTypeId="f55fd565-ee37-4a86-8cb2-b64fb5496f09"/>
+    <recordManagerType typeId="e0c94ef2-23c6-4eb1-bc3b-4a580d291c2e" valueTypeId="c93d4e60-90a3-4fa2-ad12-a192370d817e"/>
+  </producedTypes>
+  <name>ДанныеПодарочныхСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные подарочных сертификатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="61ca048c-8ecb-4691-b6cd-5d45216c5a4d">
+    <name>ПинКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пин код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="52ea1a75-eb88-4c1a-993e-027f3b6ba066">
+    <name>НомерСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сертификата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1c284c08-3154-41b0-98dd-bf7c2c5674b6" extendedConfigurationObject="bca2f926-5111-4b22-b615-450634a98572">
+  <producedTypes>
+    <objectType typeId="ad480b4f-2b2d-496d-bd59-56e0fa2ffbca" valueTypeId="cc5aba19-376a-431a-be0c-a7575cd7edcb"/>
+    <managerType typeId="4191f6b0-fd82-4da7-ba40-de0366a87147" valueTypeId="c1337621-28a2-4e63-87dc-e2817acb0719"/>
+  </producedTypes>
+  <name>РасчетПотребностей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:DataProcessor>

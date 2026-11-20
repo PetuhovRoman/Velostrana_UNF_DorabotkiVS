@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="064f5114-a2a6-40f9-a9a3-37cd1c152bb2">
+  <name>ВС_Анвиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС Доступ к Анвиз</value>
+  </synonym>
+</mdclass:Role>

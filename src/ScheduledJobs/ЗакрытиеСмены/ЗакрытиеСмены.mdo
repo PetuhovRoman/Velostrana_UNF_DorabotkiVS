@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5d447dd-3898-4260-9d60-6a509a491f51">
+  <name>ЗакрытиеСмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС: Закрытие смены</value>
+  </synonym>
+  <methodName>CommonModule.ВС_ОбщегоНазначения.АвтоматическоеЗакрытиеСмен</methodName>
+  <description>ВС: Закрытие смены</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

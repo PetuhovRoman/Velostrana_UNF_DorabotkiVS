@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8958ed10-33e7-45c9-b6b4-0eb770c983a6">
+  <name>ВС_РазрешитьВводОплатНаОснованииНепроведенногоДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>В с разрешить ввод оплат на основании непроведенного документа</value>
+  </synonym>
+</mdclass:Role>

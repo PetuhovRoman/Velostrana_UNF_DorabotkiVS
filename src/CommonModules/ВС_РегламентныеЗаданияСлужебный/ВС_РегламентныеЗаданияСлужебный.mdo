@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae7946e6-61e7-4e7a-a6f1-781d47f0dbe4">
+  <name>ВС_РегламентныеЗаданияСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС: Регламентные задания служебный</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

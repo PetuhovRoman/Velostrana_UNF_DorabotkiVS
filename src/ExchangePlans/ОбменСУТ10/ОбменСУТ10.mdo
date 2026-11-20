@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca6a80a0-456c-49ef-8231-a268388de291" thisNode="18f96c44-7cf9-4ffc-b75d-eb00656eaded">
+  <producedTypes>
+    <objectType typeId="d32bf5d4-5e9c-492c-87c2-fb277d74f6e9" valueTypeId="ddf30568-9a40-446f-99e8-2d296537f7cf"/>
+    <refType typeId="b069c3ed-0634-49e0-8a6e-0455624ed447" valueTypeId="74e95dce-96e4-425a-9ffb-6fd514f356a5"/>
+    <selectionType typeId="f8432bc1-eae4-4728-af08-c86517581cdc" valueTypeId="d1b4d0b3-25c1-4878-94c8-90aa5bee0bf8"/>
+    <listType typeId="26f2e805-84ab-45d2-85eb-aeba44e3fce8" valueTypeId="45790f6c-bc72-477b-b7f1-f84bea367f9d"/>
+    <managerType typeId="d8483c4d-8c78-43a3-bb50-3e13e64b1b15" valueTypeId="5b54303d-231b-4ceb-934f-6619e185b262"/>
+  </producedTypes>
+  <name>ОбменСУТ10</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с УТ10</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСУТ10.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменСУТ10.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.ЗаказНаПеремещение</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ОтчетОРозничныхПродажах</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ЗаказПокупателя</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="5684d54e-a1fc-4329-bd29-9b442c59f512">
+    <producedTypes>
+      <objectType typeId="9af6a800-30e0-4c1e-b0a9-2e3d40a402d9" valueTypeId="566ab76e-7cc0-4f71-9408-2b952b59e2af"/>
+      <rowType typeId="bba44009-c93b-4641-961e-d452b0ad2936" valueTypeId="4fedc78a-bbad-489b-90ab-78025c3f09ad"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <attributes uuid="729f669a-102e-46f2-8941-d90328092eab">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4c96e50d-7d95-481c-9bda-8bf2479fb443">
+    <producedTypes>
+      <objectType typeId="3b390872-4b1d-4067-95ff-044d00da123b" valueTypeId="5a574698-544b-4cb7-99ab-4d3f55031ec2"/>
+      <rowType typeId="7a6315ee-1e1a-4136-8d47-2dec5aa10368" valueTypeId="f0533688-b152-41ac-8722-1d93b8325ed3"/>
+    </producedTypes>
+    <name>Подразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделения</value>
+    </synonym>
+    <attributes uuid="91d79e70-fb25-4ea7-985f-d98d07e89495">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктурныеЕдиницы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:ExchangePlan>

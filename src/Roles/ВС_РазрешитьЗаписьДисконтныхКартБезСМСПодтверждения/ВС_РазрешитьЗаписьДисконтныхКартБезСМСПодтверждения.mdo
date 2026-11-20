@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85a937aa-d764-4622-97a4-d39724f0a264">
+  <name>ВС_РазрешитьЗаписьДисконтныхКартБезСМСПодтверждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС Разрешить запись дисконтных карт без СМС подтверждения</value>
+  </synonym>
+</mdclass:Role>

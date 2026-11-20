@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="786ac93a-52f2-48aa-9342-a8c0cd823314">
+  <name>МРМКладовщикаПеремещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>МРМКладовщика перемещение</value>
+  </synonym>
+</mdclass:CommonPicture>

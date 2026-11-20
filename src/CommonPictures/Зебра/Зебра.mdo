@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bff410f-7969-486e-8ab3-a6e102751423">
+  <name>Зебра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зебра</value>
+  </synonym>
+</mdclass:CommonPicture>

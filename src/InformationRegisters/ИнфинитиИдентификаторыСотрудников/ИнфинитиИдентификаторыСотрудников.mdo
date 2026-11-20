@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d110ccbd-2286-4fdd-be77-5b820dc6fa8a">
+  <producedTypes>
+    <selectionType typeId="185de7aa-528e-4f39-b19b-5e65cc805f89" valueTypeId="920d7ba9-75f4-4e31-a6a8-3c198672203f"/>
+    <listType typeId="3e39e722-cc35-478e-9619-c4df0b1c27a3" valueTypeId="7efc8556-70f8-4cf0-83d3-85629e18c875"/>
+    <managerType typeId="40a1fc3e-c3cc-4e17-ac39-048d27ec0a1d" valueTypeId="b220c608-3d6c-4921-a315-a9816492b691"/>
+    <recordSetType typeId="178c92cb-8f86-4f92-bf8c-60ca2726b58d" valueTypeId="8d55ffd8-436b-4c9a-85a4-464a664cdc2b"/>
+    <recordKeyType typeId="ceb8e3a5-fa86-45f3-a623-e734bdd5386c" valueTypeId="f80151ab-59f7-4c29-a9ff-756dc8a65b3d"/>
+    <recordType typeId="0fa3659f-8129-4d6b-8f48-090ed31f98c3" valueTypeId="d9ef9464-f82b-42bf-bfe2-4f43977d23b6"/>
+    <recordManagerType typeId="b84076af-671a-477f-b75b-1ff0d6ecc10f" valueTypeId="0301cf32-d15e-4fdb-a4e4-ec9865971a95"/>
+  </producedTypes>
+  <name>ИнфинитиИдентификаторыСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инфинити: Идентификаторы сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d7f1eff0-9aa8-422d-89bc-06c2101f071f">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="7c377e3c-fee3-466f-aec9-4ede10f5a90d">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

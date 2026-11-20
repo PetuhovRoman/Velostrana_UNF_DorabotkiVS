@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2d601e8-5382-4b30-8350-910c5ee54ea3">
+  <producedTypes>
+    <selectionType typeId="8c2b8a69-63fe-4e1b-a777-47ff96cf21b1" valueTypeId="35c00eaf-d78a-4ba7-85d0-2a561902ca97"/>
+    <listType typeId="38a8f324-36f8-4b07-90ac-94c8e1691b5c" valueTypeId="504ef23e-bdb6-4da6-93ce-727b999ff050"/>
+    <managerType typeId="1fe180e6-b323-4548-86c1-682f6416baa3" valueTypeId="e5e9ff88-f1b4-470a-80f1-6c4c00f6b341"/>
+    <recordSetType typeId="ab617e4a-b2c9-433c-bd5d-529b1e2f2c05" valueTypeId="9172062f-7a9b-48a4-a8bc-890657a8db49"/>
+    <recordKeyType typeId="e49d2862-688d-40b0-91ff-5d9e836ca1fc" valueTypeId="73d55cc4-17d5-4254-baae-3a1b394b9287"/>
+    <recordType typeId="7e12a25a-7e24-420f-b71f-5fcf65f4f320" valueTypeId="8bc8c42e-bddf-4c53-b842-5f53ec75c065"/>
+    <recordManagerType typeId="bca6ed9a-dfa1-4dfb-9c6a-43f6ea7682e8" valueTypeId="146e711e-7cb9-4775-b23e-9270ea3afb0e"/>
+  </producedTypes>
+  <name>ЗагрузкаБонусовВременный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка бонусов временный</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ba3cb829-b2e2-40f5-8ce0-2a8a94278346">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="ffaa238c-a1bf-4ac3-bd72-08f93d4d2d03">
+    <name>ДатаНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начисления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e9425478-a540-4ebe-80cc-ab0be413162e">
+    <name>ДатаСгорания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата сгорания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f667516e-a2db-4451-9084-25d496ed39a4">
+    <name>СтруктураКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура карта</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <binaryDataStorageLocationUse>DontUse</binaryDataStorageLocationUse>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e2cf5481-2aa3-499d-8833-3cc1526b9bf7">
+    <name>СтруктураКонтрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура контрагент</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <binaryDataStorageLocationUse>DontUse</binaryDataStorageLocationUse>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="60f0df6b-ca79-4022-af78-1f30c65ccf4c">
+    <name>БонуснаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бонусная карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДисконтныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="da24fa12-6301-4e85-8f9c-539fca3b64f1">
+    <name>ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cbabac10-94b0-4a0c-bf03-d027e803982f">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

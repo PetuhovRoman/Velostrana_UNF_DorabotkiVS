@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4152ffe9-dba4-40ed-87dd-2341eaebb615">
+  <name>СайтВыгрузкаОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сайт: Выгрузка остатков</value>
+  </synonym>
+  <methodName>CommonModule.ОбменДаннымиССайтом.ВыгрузкаОстатков</methodName>
+  <description>Сайт: Выгрузка остатков</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

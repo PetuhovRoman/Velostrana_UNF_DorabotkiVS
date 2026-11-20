@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="db89ad2b-a212-4273-b8bc-dff4e38e74ff" extendedConfigurationObject="8e36c8e1-a5cb-4b4d-96a5-24dd732d8d44">
+  <producedTypes>
+    <selectionType typeId="3f08659e-5880-4985-8fbf-dcd927ecfe04" valueTypeId="e9ef9efb-ebdd-4b66-abcb-3c69d8089de6"/>
+    <listType typeId="12c7996a-bf49-46f4-b006-cf71b7cbe707" valueTypeId="9de85f29-5f9c-441e-a874-249c60188563"/>
+    <managerType typeId="05807d29-5302-4c16-b2b6-d0744b213069" valueTypeId="6da927d8-a2c6-4917-b470-636cf05970bd"/>
+    <recordSetType typeId="7893f328-6c3f-478e-bbf8-946a809fe8c3" valueTypeId="f8bf54b4-c5e1-438d-8f6f-b4672a335cdf"/>
+    <recordKeyType typeId="312aa6ac-dd00-4c4a-ab77-f93f600d61fb" valueTypeId="3c2ae03d-89c0-4472-aad7-7bea8dab16b6"/>
+    <recordType typeId="ab4c8285-9741-4350-b453-3a6d91a921d3" valueTypeId="aee1c30e-c54c-41c7-a6ac-df985e60fbbf"/>
+    <recordManagerType typeId="da02d54c-9b3a-45a9-96d6-d3c703d1e676" valueTypeId="aefadea7-969b-443d-ae73-bcb9618da85c"/>
+  </producedTypes>
+  <name>ИдентификаторыОнлайнЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:InformationRegister>

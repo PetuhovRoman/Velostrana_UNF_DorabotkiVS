@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec924522-e20c-473f-9c7f-6e71a5ba4472">
+  <name>МРМКладовщикаНастройкиАктивная</name>
+  <synonym>
+    <key>ru</key>
+    <value>МРМКладовщика настройки активная</value>
+  </synonym>
+</mdclass:CommonPicture>

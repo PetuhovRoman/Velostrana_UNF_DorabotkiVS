@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b5d21ae-c6f2-46e2-9e84-06a6d2a7e087">
+  <name>ФормированиеЧековДляОблачныхКасс</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС: Формирование чеков для облачных касс</value>
+  </synonym>
+  <methodName>CommonModule.ВС_ОблачныеКассы.СформироватьЧекиПоРасходнымНакладным</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

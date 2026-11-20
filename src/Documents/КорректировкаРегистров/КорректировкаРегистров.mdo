@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1f3173d1-0991-4a77-a9c9-026e85b47fa7" extendedConfigurationObject="631bb4ca-15b6-4e8f-a0c0-016c149da2d6">
+  <producedTypes>
+    <objectType typeId="7e8349e9-12a5-4a3c-a62a-c33ec95d5d53" valueTypeId="d14d85a0-27f7-4770-835c-6a3eab5a8655"/>
+    <refType typeId="d581fac3-320a-4afe-bbd6-25ce60cb8c27" valueTypeId="4e45354e-e81b-4ca2-91c8-2dfd52b2e26b"/>
+    <selectionType typeId="9d536211-667e-493f-9820-ec206829dca6" valueTypeId="e34e7f81-ea9a-4533-87b6-1a00aa5635ec"/>
+    <listType typeId="ce96b10d-dcc9-4938-b4ce-6c276d33c268" valueTypeId="b1711b1a-6860-41ca-b292-c7bf43f4a770"/>
+    <managerType typeId="30c5c79b-f39a-4160-903f-b82a5e4c141c" valueTypeId="25a87aa7-e172-4b1a-ba5c-82fb5e76102c"/>
+  </producedTypes>
+  <name>КорректировкаРегистров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <registerRecords>InformationRegister.БлокировкиСкладскихЯчеек</registerRecords>
+</mdclass:Document>

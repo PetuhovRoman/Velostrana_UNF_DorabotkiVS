@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6ad20a7-5f77-450e-864d-3e5f9119f92d">
+  <producedTypes>
+    <selectionType typeId="596c7b11-3c4e-4a71-b9c4-001296c84eff" valueTypeId="1bc5e7bd-5787-412d-99b5-cf187f49b2a2"/>
+    <listType typeId="73d17847-493e-40cf-b832-cad01dcacc94" valueTypeId="6985504f-5b33-4c05-9223-661ae377303d"/>
+    <managerType typeId="baa6028c-79ab-44ae-9f85-e9e823a2a323" valueTypeId="7daa934e-f3db-42ea-95ea-535d85608425"/>
+    <recordSetType typeId="b7235cc8-8c77-4701-865b-eb7a152a7133" valueTypeId="921015bf-33d9-4703-bfa9-a8a3d63a60da"/>
+    <recordKeyType typeId="ea554277-7fb9-4c77-856e-7ae8f1282ab0" valueTypeId="a1819b22-d44d-4962-92f6-827ddea8f286"/>
+    <recordType typeId="2da0cdda-f7f0-41a7-aa20-3f37f89bc129" valueTypeId="bb874e4c-0986-4895-9a0b-018465c1ea09"/>
+    <recordManagerType typeId="3934e5ef-7ade-4cb7-a7ba-96f6fad8473c" valueTypeId="592d0bd6-164d-465e-ace4-9e9b55f109ba"/>
+  </producedTypes>
+  <name>ИдентификаторыРабочихСмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы рабочих смен</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="da9f5e56-9f49-4c10-93c3-95c49d045961">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="045130a0-d13e-4477-802c-6e052d0cd34b">
+    <name>ИдентификаторАльтернативный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор альтернативный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="ca1532a0-1f68-4d43-95e5-f9e47f92812b">
+    <name>РабочаяСмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочая смена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеСменыСтруктурныхЕдиниц</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

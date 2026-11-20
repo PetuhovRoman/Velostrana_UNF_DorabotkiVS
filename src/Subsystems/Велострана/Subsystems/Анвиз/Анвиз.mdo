@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d54449f7-ed93-4d1e-8ce9-c29a7287d2c5">
+  <name>Анвиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анвиз</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ДанныеАнвиз</content>
+  <content>DataProcessor.ЗагрузкаДанныхАнвиз</content>
+  <content>InformationRegister.ИдентификаторыРабочихСмен</content>
+  <parentSubsystem>Subsystem.Велострана</parentSubsystem>
+</mdclass:Subsystem>

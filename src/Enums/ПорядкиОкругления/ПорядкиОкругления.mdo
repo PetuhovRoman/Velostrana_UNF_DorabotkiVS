@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a20f1de-8d75-4b7c-8d45-eaf29bc4ef48" extendedConfigurationObject="4289ff00-22fc-4615-a5bf-52bc5ffffa90">
+  <producedTypes>
+    <refType typeId="9c6b1ab0-7c9f-495b-a56d-08873518a4db" valueTypeId="c2f57505-f018-402d-bc7d-feed39ab0d57"/>
+    <listType typeId="06d606f8-7c4d-4a99-a098-ccfd3b2fc6a8" valueTypeId="80bac249-ea12-4035-a23b-1fee9dfcde4d"/>
+    <managerType typeId="baa833a9-617f-439f-b6aa-102dd735a48b" valueTypeId="6ea60d1c-b4e5-4f62-8aee-a38cac429293"/>
+  </producedTypes>
+  <name>ПорядкиОкругления</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

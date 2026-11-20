@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="086600d8-3772-441c-a237-1f2489b474c6" extendedConfigurationObject="ddedc4ab-0149-4852-93a6-c895e2793772">
+  <producedTypes>
+    <objectType typeId="af2ba45c-3072-416b-b3d3-ff7b57fb745c" valueTypeId="e98deb7e-9632-4326-a5ff-40c7ebef909e"/>
+    <refType typeId="04601635-10cc-4972-9f9c-23d8aa86b4a5" valueTypeId="f7a72b50-e4da-47e9-b963-7d9b2aa14173"/>
+    <selectionType typeId="fa4e8c05-efbd-46f6-8a88-916922467cae" valueTypeId="7b404c74-5209-4e46-9efd-4e8260c41cd6"/>
+    <listType typeId="063f65bc-4ac8-4e1d-9950-325226280a52" valueTypeId="120a4fa9-fb7a-4ff1-bb65-c53619be51fe"/>
+    <managerType typeId="f315717a-f882-46d1-b50d-e529b40e8799" valueTypeId="7901f801-b6a6-40fe-b978-8e051b797ae7"/>
+  </producedTypes>
+  <name>ОприходованиеЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Document>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="534939a7-1b07-47c6-beff-9019901bd7fb">
+  <producedTypes>
+    <selectionType typeId="60a6ce01-da18-48ba-bdc0-5d52b8b65c49" valueTypeId="b36f749b-d8b2-4c77-bb10-9171bfe2582f"/>
+    <listType typeId="d7e57e37-cb70-4219-8c7b-a6d431dfe6b1" valueTypeId="b8e815aa-47a9-46bb-87a5-018cd9cf6ce2"/>
+    <managerType typeId="42478112-5364-42d7-ae94-01e9dc896f57" valueTypeId="9dc43b80-0626-4ad5-9e9c-6897f089c661"/>
+    <recordSetType typeId="503d9e02-ea35-460d-b55b-9cf8499ba17c" valueTypeId="bcc5991f-33e9-4bf6-8aa5-130e0d83ba29"/>
+    <recordKeyType typeId="d5fe77c8-934f-4474-820c-db65c78a836a" valueTypeId="bb7faa04-8fba-4ac4-9303-4f23ff09bb5b"/>
+    <recordType typeId="c944a8c2-e663-4962-8e05-883b6c426eec" valueTypeId="9786aaea-26a8-4fd3-89de-cae48002f4db"/>
+    <recordManagerType typeId="8bdd7aae-1cf9-463e-8736-5f437a7d5b35" valueTypeId="a7ab99e9-c77a-4308-ab40-3d74afc815bc"/>
+  </producedTypes>
+  <name>ДанныеАнвиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные Анвиз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="96c0d01a-16f0-4d93-8b3d-b442c93ddff1">
+    <name>ИДСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД Сотрудника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="2bb48ed0-4381-4ee2-936a-dbca8e52b258">
+    <name>ПредставлениеПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление подразделения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="aa93c9ab-7fe5-4488-80ca-5a3d2d2b7dc6">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e911d371-8fb0-4594-a821-09f3d4205478">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="65d57dc7-865f-4f00-84fc-17dc70da03f2">
+    <name>ПредставлениеСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление сотрудника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="057423d8-a4cb-4bd6-8c27-4e641839503d">
+  <producedTypes>
+    <selectionType typeId="610cbcff-c2a0-4a84-b20f-473837e1fb09" valueTypeId="f6964214-39bf-4f3e-b53d-a67628bdcf3b"/>
+    <listType typeId="2132387a-ee7d-4bcc-ba50-fe776958ca0c" valueTypeId="59daba8a-b870-48eb-8e9e-36a2936b616a"/>
+    <managerType typeId="618f6412-c26a-459d-bcb4-f2a4f9ac08e9" valueTypeId="5e09abd2-6ae0-47f9-b1d5-85864d7ba932"/>
+    <recordSetType typeId="a103e4cb-a6be-4735-83d4-d159980b3291" valueTypeId="0e047466-c0f3-4985-b8b7-8457fed6cb46"/>
+    <recordKeyType typeId="e3c8f213-9d54-4f33-9f16-f508883196bc" valueTypeId="1eb7e7ad-ea66-4899-8618-8218daed1d47"/>
+    <recordType typeId="4dbe32c9-0972-4e79-b55e-fb4dbe017755" valueTypeId="ebac3b10-5762-4c48-9828-f68abf30ea78"/>
+    <recordManagerType typeId="dcdd8027-5d68-4698-842a-c55cdbee1f4c" valueTypeId="c70bab6d-2825-4796-9a22-a1075901244a"/>
+  </producedTypes>
+  <name>ИнфинитиСоответствиеНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инфинити: Соответствие номеров</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="25e0e83c-af84-4a94-968f-9452c0213e2a">
+    <name>Компания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="b21c3e25-d71f-4a63-b9c4-1505d1f5ad31">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2876d49-1af9-45f8-b4e5-e42e1203b892">
+  <producedTypes>
+    <selectionType typeId="c69f2660-ef4b-4afd-8a9c-5f8cef047476" valueTypeId="1e2ede6a-0320-459a-84b2-bd84ffeae548"/>
+    <listType typeId="4fbbc825-7277-43f2-a7d3-b18bd492b939" valueTypeId="fb2b3110-8a84-4f83-a85e-82086ad51591"/>
+    <managerType typeId="b5a8ffea-7de6-488c-9170-1c77fbde9e8a" valueTypeId="d4e782a6-8c30-4d4f-b45d-deaee832c3e0"/>
+    <recordSetType typeId="c7b946d9-b873-44d9-8cfc-25108156a749" valueTypeId="c9c561ea-e4a6-46b2-a961-a644ea944449"/>
+    <recordKeyType typeId="c5c3f585-22bf-4ccf-85d0-ae8db595e0a6" valueTypeId="d75eba24-383c-4fe2-969e-1a5d267eaf3f"/>
+    <recordType typeId="aee7ae49-1e20-41c5-8b68-a4e930457b36" valueTypeId="7bc9600c-c6c0-44ba-b0f3-42a71b54eec5"/>
+    <recordManagerType typeId="01349350-2997-4bca-bcf9-bf7b41d36059" valueTypeId="8b50e56e-0ed9-4958-94a6-6f24d7727bee"/>
+  </producedTypes>
+  <name>РаспределениеЗаказовПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределение заказов покупателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6a3edd42-fc71-4ca7-a76b-caf8dcc23e28">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный, принявший заказ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+  </resources>
+  <dimensions uuid="f0485794-34d1-4dc4-bf78-c8af42fadb1f">
+    <name>ЗаказПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ покупателя</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="203b2ab6-4574-4f6c-979a-1b9b94d3bc2f">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникиПривлеченияПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

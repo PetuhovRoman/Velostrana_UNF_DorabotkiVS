@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebb8a93c-8195-41a6-b649-13d41f828244">
+  <name>ЗакрытиеРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС: Закрытие резервов</value>
+  </synonym>
+  <methodName>CommonModule.УправлениеОчередьюЗаказовПокупателей.СнятьЗаказыСРезерва</methodName>
+  <description>Закрытие резервов</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

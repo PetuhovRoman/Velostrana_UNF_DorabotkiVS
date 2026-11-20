@@ -1,0 +1,8 @@
+* text=auto
+
+*.mxl binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.zip binary
+*.cfe binary

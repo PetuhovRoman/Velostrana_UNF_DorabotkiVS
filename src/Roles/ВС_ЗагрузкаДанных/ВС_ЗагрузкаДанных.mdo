@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="777296cd-8f02-4d19-9725-d04c6aaf5d63">
+  <name>ВС_ЗагрузкаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС Загрузка данных</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52bf0523-3a1d-49c6-a354-6699e57459a9">
+  <name>ВС_РассылкаОбороты</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС: Рассылка обороты</value>
+  </synonym>
+  <methodName>CommonModule.ВС_РегламентныеЗаданияСлужебный.РассылкаСМСОборотыИнформация</methodName>
+  <description>Рассылка Обороты</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

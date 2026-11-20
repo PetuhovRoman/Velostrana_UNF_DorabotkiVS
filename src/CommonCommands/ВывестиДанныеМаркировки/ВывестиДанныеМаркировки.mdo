@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72fb4342-22ce-4565-b9cb-f3a0cd413243">
+  <name>ВывестиДанныеМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вывести данные маркировки</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.Номенклатура</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Picture</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.МаркироватьУпаковку</picture>
+  </picture>
+</mdclass:CommonCommand>

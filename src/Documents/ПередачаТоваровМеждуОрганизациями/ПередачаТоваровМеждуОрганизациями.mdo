@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5874192b-b06f-420a-9d9f-e89c2b75345c" extendedConfigurationObject="1d8a64b9-7792-4a1a-bdef-74fd04436ea4">
+  <producedTypes>
+    <objectType typeId="1650f5d4-6dae-4e26-82cf-69a8715b5706" valueTypeId="92088415-fa8f-4c3a-becc-45b2f3564ec1"/>
+    <refType typeId="496ecf94-4af1-4700-99e6-a82e2007a8de" valueTypeId="537e7907-b166-4f38-ae67-25057a2d61f9"/>
+    <selectionType typeId="c2deffbf-ede3-4075-839b-512f10d248fe" valueTypeId="708a66fd-1938-4193-ba77-c922ee00f615"/>
+    <listType typeId="37ae01a2-c8d4-4766-a190-65a044955484" valueTypeId="f3c9c2ec-e77c-4a11-9af3-fd0299a7c564"/>
+    <managerType typeId="86d426ce-359e-4749-999c-19795f6108fa" valueTypeId="03ff4415-d99b-4db2-8129-38efc6cfd50b"/>
+  </producedTypes>
+  <name>ПередачаТоваровМеждуОрганизациями</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="716d2343-fe8f-49be-834b-2b9eb3ebc547" extendedConfigurationObject="ad15082c-8f34-41d9-b2f7-6bd4b45dbd99">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Extended</state>
+          <type>DocumentRef.ПеремещениеЗапасов</type>
+        </types>
+        <types>
+          <state>Extended</state>
+          <type>DocumentRef.ЗаказНаПеремещение</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

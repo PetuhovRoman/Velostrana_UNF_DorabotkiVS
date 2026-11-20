@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="419e16cb-78bc-492c-87ba-c1e3b36c7f93" thisNode="3fb9d14c-ee51-4c95-a1a4-86e1ec1f0e77">
+  <producedTypes>
+    <objectType typeId="baf9e985-9f26-4c89-96f0-aa1869e97927" valueTypeId="7f85e923-e673-4f85-b72c-9590e6ceb702"/>
+    <refType typeId="adbe6463-1257-4520-a3cd-e87d370927ff" valueTypeId="1e2b8ff5-0810-410e-b832-1c8f35b695b3"/>
+    <selectionType typeId="08483211-6cd7-4b99-b0b5-6b987a9edd84" valueTypeId="f63bd54d-b1be-4e3e-b31f-38f60566fcf9"/>
+    <listType typeId="4275eb9e-34e3-4acd-b7e7-b707160423f3" valueTypeId="52066e34-f374-4001-aecb-69fe88493595"/>
+    <managerType typeId="276206a1-dbe8-4e4f-aeed-e349c9797b30" valueTypeId="bce0c9c7-7107-4356-b0ff-e1f1832d1c1b"/>
+  </producedTypes>
+  <name>ИнтеграцияСИнтернетМагазиномБонусы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с интернет магазином бонусы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ИнтеграцияСИнтернетМагазиномБонусы.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ИнтеграцияСИнтернетМагазиномБонусы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.ДисконтныеКарты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.БонусныеБаллы</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

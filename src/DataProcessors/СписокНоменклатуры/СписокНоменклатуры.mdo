@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30da90c7-da22-428e-8971-8a3ac459bb60">
+  <producedTypes>
+    <objectType typeId="3a461b39-e0d0-4989-b31c-b3f933774b23" valueTypeId="a7649978-ae2c-448f-99f7-084f2a393574"/>
+    <managerType typeId="57e26fcf-2654-4855-a5c3-0366e9e07551" valueTypeId="610adf11-3886-4357-9592-1541ad922523"/>
+  </producedTypes>
+  <name>СписокНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СписокНоменклатуры.Form.ФормаСписка</defaultForm>
+  <forms uuid="20110342-467b-484c-9598-3efc123608bf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

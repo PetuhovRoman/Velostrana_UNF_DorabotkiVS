@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0990bc28-2ffa-45c0-abb0-dc25db8f3e69" extendedConfigurationObject="3d16e55c-819a-4e99-a79c-97b8849afd19">
+  <producedTypes>
+    <objectType typeId="f668e9a9-1c8e-4e02-95c5-fb2d4be0ea3a" valueTypeId="8a65ef67-d5bb-498c-8eb6-a8389ec876e7"/>
+    <refType typeId="f2225a7f-b937-49fe-b4f2-d0e9f8a8daba" valueTypeId="f6c5a84d-ac80-40b5-91dc-e3e2ce7c5e35"/>
+    <selectionType typeId="88cd96eb-222e-4008-9098-26d29e391701" valueTypeId="63a943a5-9105-4571-ba92-b1bc49b77d7c"/>
+    <listType typeId="fc3f1354-f1e2-48c9-a873-18597502abc3" valueTypeId="28c466a6-998a-49bb-a5bf-4e658669d423"/>
+    <managerType typeId="f36fc970-fb9f-4e2b-aed1-affc8fce9876" valueTypeId="72bfb1c6-e4cb-44cf-a682-57c651381505"/>
+  </producedTypes>
+  <name>ДисконтныеКарты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="b13b97dd-3acf-47aa-98f0-a963439dcd43" extendedConfigurationObject="7e896780-d7ba-4ea4-8d32-9d19fb11aaff">
+    <name>СчитываниеДисконтнойКарты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="79c26af9-2040-46cb-8991-d6c90980c17b" extendedConfigurationObject="4ca9a830-0df8-41a6-8f25-4ed527a084ae">
+    <name>ФормаОплатыБонусами</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

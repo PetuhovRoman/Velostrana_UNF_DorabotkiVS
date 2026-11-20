@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d7acda3-5420-430b-981b-284bc1e1cac9">
+  <name>ПринятьВРаботуВелосипеды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принять в работу велосипеды</value>
+  </synonym>
+  <group>CommandGroup.ПринятьЗаказВРаботу</group>
+  <commandParameterType>
+    <types>DocumentRef.ЗаказПокупателя</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

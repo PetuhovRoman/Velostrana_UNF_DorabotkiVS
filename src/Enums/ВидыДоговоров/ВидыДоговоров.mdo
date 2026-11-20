@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8fd2a04a-a7a6-45df-b7c6-3917b190808c" extendedConfigurationObject="35ac575d-3333-428d-bb00-ae2dd603b676">
+  <producedTypes>
+    <refType typeId="4d001624-015a-4a3f-99be-6b6dff40429e" valueTypeId="fd5643ba-07c7-484f-80d5-7c8f1402f434"/>
+    <listType typeId="1ad7f932-a092-496c-b4f0-beb148b63e7a" valueTypeId="4ac249d1-7998-4a3f-a109-ea32bb0314aa"/>
+    <managerType typeId="74d88dd2-c832-42fb-a777-df773f4b9bf6" valueTypeId="d7d8209a-659a-42d0-be3d-5adb7b6a65a3"/>
+  </producedTypes>
+  <name>ВидыДоговоров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="6a2f1b8e-4b51-4bf2-b0f2-4d9a185964bd" extendedConfigurationObject="79629720-62d2-4fb5-bfeb-bc994f7eee75">
+    <name>СПокупателем</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ad175571-4d48-4e5f-b60a-8c558a46e640" extendedConfigurationObject="c2834eed-932c-4a05-b3ac-5efe76f5773c">
+    <name>СПоставщиком</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="7d324b7b-94c0-4769-a985-ce15938ff45b" extendedConfigurationObject="6e6d954a-40ca-4d19-8589-f0b8faf38efc">
+    <name>Прочее</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

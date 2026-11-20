@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e1fe2cd-dd94-4fc6-b584-d42d42a28050">
+  <producedTypes>
+    <selectionType typeId="3178e684-e29f-44ca-8c34-143f97e643e9" valueTypeId="f8868343-9cdc-473a-b704-6209d4cc33c6"/>
+    <listType typeId="e38d5f68-3355-4329-853b-62811a8d8077" valueTypeId="5bc8e2b1-410e-470b-8473-a398d618eb00"/>
+    <managerType typeId="9dc83e5e-19c1-42c4-bc1e-9d3691f265fe" valueTypeId="0c6f1fd8-e09b-4386-a23d-b6f5b2cabf1a"/>
+    <recordSetType typeId="917d9cbb-665b-442a-8dcd-6bcfa6c07ae8" valueTypeId="9671b18e-575d-4c78-a2ff-e5360ed2862a"/>
+    <recordKeyType typeId="eb20e15a-20e7-4f89-b336-95ee171042c4" valueTypeId="6d0a3b74-ea73-4ef3-b777-e15637563274"/>
+    <recordType typeId="37063de3-e9db-4f2d-99bc-9aea1db8a795" valueTypeId="0831c016-0cd5-4727-8a7e-b06ebe81d3c7"/>
+    <recordManagerType typeId="9e4a4423-0c24-4a59-afc8-8772cea301f2" valueTypeId="193d00e5-fbfc-4712-96cc-023f65fd80ea"/>
+  </producedTypes>
+  <name>СтатусыНаличияКодовМаркировкиВДокументах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы наличия кодов маркировки в документах</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7551ca44-724e-486a-a7b2-88426dcfa61f">
+    <name>СтатусНаличияКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус наличия КМ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fa4823be-77b2-4088-a955-6e40f9cc254a">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриходнаяНакладная</types>
+      <types>DocumentRef.ЧекККМ</types>
+      <types>DocumentRef.ПеремещениеЗапасов</types>
+      <types>DocumentRef.ЗаказПокупателя</types>
+      <types>DocumentRef.РасходнаяНакладная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

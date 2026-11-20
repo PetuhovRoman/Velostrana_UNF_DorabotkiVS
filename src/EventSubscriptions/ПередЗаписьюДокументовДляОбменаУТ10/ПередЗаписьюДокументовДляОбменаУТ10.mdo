@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10042ac5-5cb7-4755-93c6-8a454b14386b">
+  <name>ПередЗаписьюДокументовДляОбменаУТ10</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи документов для обмена с УТ10</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.ЗаказПокупателя</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ВС_ПодпискиНаСобытия.ПередЗаписьюДокументовДляОбменаУТ10ПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="66bbd2d9-d692-4b26-802a-26da2fe2eb1e" extendedConfigurationObject="6f2fdd80-5c01-4f1e-9992-abaf187051eb">
+  <producedTypes>
+    <objectType typeId="37d0db58-0fd1-4e66-89e8-e0dad8631c24" valueTypeId="ab230ce1-a1fb-4186-952d-29e6d13f2e8d"/>
+    <refType typeId="6819291e-153f-4863-8839-3dcae4c297dc" valueTypeId="0b2f7491-3d36-4984-84e5-90bfa2c00e9c"/>
+    <selectionType typeId="5655bfee-64d4-42d1-a583-c6c314c65071" valueTypeId="af47e456-eaa1-4c2a-bce0-fdf552f9fa8a"/>
+    <listType typeId="fc76ceae-05b2-4c3e-9250-4282c9fdba19" valueTypeId="51b2bd0b-5ed9-4d10-9c52-6369343df12f"/>
+    <managerType typeId="54db9d2f-6b65-421d-96aa-403012965a8a" valueTypeId="64a65f26-9265-4ee1-9e50-ce497cefcb7c"/>
+  </producedTypes>
+  <name>Взаимозачет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

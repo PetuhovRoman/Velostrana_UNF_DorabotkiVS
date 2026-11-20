@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fbf3e355-6e2c-431b-aac5-461b379766a7" extendedConfigurationObject="bea7f781-5f18-4219-997c-9a767fb284be">
+  <producedTypes>
+    <objectType typeId="0e7b29fa-3776-42ec-8d44-46dc019e6888" valueTypeId="6ab1e349-3d79-4f6f-a442-5855e94c3dc5"/>
+    <refType typeId="2c0ff4e4-8ea1-4a57-998c-1e0651e7af1a" valueTypeId="0b60efec-13ef-41df-a924-2cb220a96489"/>
+    <selectionType typeId="8905784e-902b-4391-987f-4f8cf14190d8" valueTypeId="e4d99d11-f063-45ba-aefa-23667b47c5fe"/>
+    <listType typeId="905a8443-e1f5-4a93-ab1e-f15d5fdaa6d7" valueTypeId="c28a8589-7026-42b5-b143-d7eb1ea0bf5e"/>
+    <managerType typeId="b17bdb15-c65b-482c-984b-5731a5896793" valueTypeId="1041138a-50c7-4761-8f92-403293e80700"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="6eaafa34-a2be-4eff-abd7-bba06c0448ff">
+    <name>ТорговаяМарка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговая марка</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ТорговыеМарки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14dda3e7-28c7-4294-88ac-2b13d7ced2a4" extendedConfigurationObject="943e74c4-655a-4b9c-b82e-7e5efda13c74">
+    <name>Артикул</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="4948907d-a447-49cb-b6d2-fba3a782f6d3">
+    <name>ФормаВыводаОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вывода описания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="95ff27fe-5df0-44a9-9b95-6257d4e0cd2e">
+    <name>ФормаСпискаВС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка ВС</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d5d422e-0906-4e2b-aa0a-789782cca930" extendedConfigurationObject="d89a96a1-3378-44a9-a57b-988267219cce">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="bf9da706-078b-4e7e-a2dc-556861280356" extendedConfigurationObject="d49665b8-0596-4f7e-b4e9-1f4dc760bfaf">
+    <name>ФормаВыбораЗначенияСвойства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="00b22f3e-e98e-4632-9e40-e5ba8a08603f" extendedConfigurationObject="64e3c5f1-ddfe-4622-8e38-72337300b817">
+    <name>ФормаОплатыСертификатом</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <templates uuid="ba3a94c2-bde9-4193-83e2-27ca90bcb79e">
+    <name>ДанныеМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные маркировки</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3273205-7b10-4421-b856-10936f48f217">
+  <name>yandex_32</name>
+  <synonym>
+    <key>ru</key>
+    <value>Yandex 32</value>
+  </synonym>
+</mdclass:CommonPicture>

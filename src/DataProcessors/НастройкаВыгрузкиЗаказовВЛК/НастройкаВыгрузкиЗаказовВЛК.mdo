@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dce5d2f1-ffbc-45b2-9101-1a819cb6b569">
+  <producedTypes>
+    <objectType typeId="64b2bb2b-03d8-406d-af3f-b0155da48dd6" valueTypeId="adabeecc-96d8-47f8-b1a5-17ea0f130291"/>
+    <managerType typeId="fd934150-476b-429c-99af-e9e82429e3e1" valueTypeId="cfeaa6d7-3288-4615-8a4b-cb7170ece948"/>
+  </producedTypes>
+  <name>НастройкаВыгрузкиЗаказовВЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка выгрузки заказов в ЛК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкаВыгрузкиЗаказовВЛК.Form.Форма</defaultForm>
+  <attributes uuid="1347d7e8-f4f1-42fa-a542-0e94fff4f338">
+    <name>НастройкаКомпоновки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка компоновки</value>
+    </synonym>
+    <type>
+      <types>DataCompositionSettingsComposer</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="416cddbb-c818-4b11-b6c4-faa1673b2940">
+    <name>СтрокаРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка результата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="df06c3de-3f63-4850-9dcc-fec31a383c14">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7da54519-8189-4715-bbf0-766f13b464fa">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

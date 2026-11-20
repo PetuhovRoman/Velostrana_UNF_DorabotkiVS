@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec3f6f62-25e4-484c-801f-90e90444566b">
+  <name>МРМЗаблокировать</name>
+  <synonym>
+    <key>ru</key>
+    <value>МРМЗаблокировать</value>
+  </synonym>
+</mdclass:CommonPicture>

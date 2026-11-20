@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="862aa3b9-ab24-4580-aed2-99f76ee806c8" extendedConfigurationObject="500e51a6-0802-4258-83c0-0fdc7d8b8aaf">
+  <producedTypes>
+    <selectionType typeId="14673342-9302-48d8-88b1-e07f8e122592" valueTypeId="d19cc392-4fd3-4b8f-8d41-11cdc28e8a5b"/>
+    <listType typeId="388f2982-f247-41c6-b727-cc026e070a80" valueTypeId="dd113aa5-2ea7-4205-a111-37a494f471f9"/>
+    <managerType typeId="ccf0a539-64ed-49d8-8db9-32a607f9f463" valueTypeId="aa6146ae-d92e-4d9e-970d-9cc141fd3e24"/>
+    <recordSetType typeId="293a75a0-443e-499c-aad4-930d8c8a26b0" valueTypeId="d092ff44-9f21-4178-b86d-6ae49cb3324c"/>
+    <recordKeyType typeId="1962801d-0988-4bb6-b922-74b66362b47d" valueTypeId="595eb2ea-39e9-455e-82a8-ee006535d8d2"/>
+    <recordType typeId="5b917ed1-d75a-48ca-b4d9-e5219ef5a6ed" valueTypeId="00b35d2b-c532-4294-b488-943a8373b76f"/>
+  </producedTypes>
+  <name>БонусныеБаллы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="20de5350-cc09-44a5-826f-2aaa1ae07f48" extendedConfigurationObject="e2437015-34f5-4c84-a0de-a83e445b9c5d">
+    <name>Начислено</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="90dc9b0f-e0ae-4db8-a797-a9f6fc215de8" extendedConfigurationObject="f765843f-0889-47eb-91f6-7518d0bbf8f9">
+    <name>БонуснаяКарта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДисконтныеКарты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:AccumulationRegister>

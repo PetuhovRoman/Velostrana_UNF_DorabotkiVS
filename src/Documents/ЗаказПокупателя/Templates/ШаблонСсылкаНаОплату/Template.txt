@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+<DIV class=email-bg style="BACKGROUND: url(https://www.velostrana.ru/assets/mail/1c-mail/images/pattern.jpg); PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<TABLE class=email style="WIDTH: 600px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 15px auto; PADDING-RIGHT: 0px">
+<TBODY>
+<TR>
+<TD class=email-container style="FONT-SIZE: 12px; BORDER-TOP: #d8d8d8 1px solid; FONT-FAMILY: 'Tahoma', sans-serif; BORDER-RIGHT: #d8d8d8 1px solid; BORDER-BOTTOM: #d8d8d8 1px solid; COLOR: #333; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #d8d8d8 1px solid; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #f4f6f7"><!--info in email-subject--><!--topline-->
+<DIV class=email-topline style="FONT-SIZE: 14px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #20b6f3">
+<DIV class=email-wrap style="OVERFLOW: hidden; WIDTH: 560px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: auto; PADDING-RIGHT: 20px">
+<DIV class="soc-list email-topline__soc" style="FLOAT: right"><A style="TEXT-DECORATION: none; COLOR: #20b6f3; OUTLINE-STYLE: none; MARGIN: 0px 7px; DISPLAY: inline-block" href="https://vk.com/velostrana"><IMG alt=fb src="https://www.velostrana.ru/assets/mail/1c-mail/images/vk-white.png" width=23></A><A style="TEXT-DECORATION: none; COLOR: #20b6f3; OUTLINE-STYLE: none; MARGIN: 0px 7px; DISPLAY: inline-block" href="https://ok.ru/velostrana/"> <IMG alt=youtube src="https://www.velostrana.ru/assets/mail/1c-mail/images/ok-white.png" width=13></A><A style="TEXT-DECORATION: none; COLOR: #20b6f3; OUTLINE-STYLE: none; MARGIN: 0px 7px; DISPLAY: inline-block" href="http://t.me/velostranabot"> <IMG alt="" src="https://www.velostrana.ru/assets/mail/1c-mail/images/tgram-white.png" width=16></A></DIV></DIV></DIV><!--header-->
+<DIV class=email-header style="FONT-SIZE: 14px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff">
+<DIV class=email-wrap style="OVERFLOW: hidden; WIDTH: 560px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: auto; PADDING-RIGHT: 20px">
+<DIV class=email-header__logo style="FLOAT: left"><A style="TEXT-DECORATION: none; COLOR: #20b6f3; OUTLINE-STYLE: none" href="http://www.velostrana.ru/"><IMG alt=Велострана src="https://www.velostrana.ru/assets/mail/1c-mail/images/logo.jpg" width=191></A></DIV></DIV></DIV><!--content-->
+<DIV class="order-products bg-grey" style="BORDER-TOP: #e8e8e8 1px solid; BORDER-BOTTOM: #e8e8e8 1px solid; PADDING-BOTTOM: 5px; PADDING-TOP: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #f4f6f7">
+<DIV class=order-products__header style="MARGIN-BOTTOM: 40px; TEXT-ALIGN: center">
+<H2 style="FONT-SIZE: 16px; FONT-WEIGHT: 700; MARGIN: 0px 0px 3px">Здравствуйте, %Имя%!</H2>
+<P style="FONT-SIZE: 13px; COLOR: #888888; MARGIN: 0px">%ДатаЗаказа% г. вы оформили заказ №%НомерЗаказа%:</P></DIV>
+<TABLE class=order-products__table style="WIDTH: 100%; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<TBODY>
+<TR>
+<TH style="FONT-SIZE: 12px; FONT-WEIGHT: 400; COLOR: #888888; PADDING-BOTTOM: 7px; TEXT-ALIGN: left; PADDING-TOP: 7px; PADDING-LEFT: 20px; PADDING-RIGHT: 5px">Наименование товара</TH>
+<TH style="FONT-SIZE: 12px; FONT-WEIGHT: 400; COLOR: #888888; PADDING-BOTTOM: 7px; TEXT-ALIGN: center; PADDING-TOP: 7px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px">Кол-во</TH>
+<TH style="FONT-SIZE: 12px; FONT-WEIGHT: 400; COLOR: #888888; PADDING-BOTTOM: 7px; TEXT-ALIGN: center; PADDING-TOP: 7px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px">Цена</TH>
+<TH style="FONT-SIZE: 12px; FONT-WEIGHT: 400; COLOR: #888888; PADDING-BOTTOM: 7px; TEXT-ALIGN: center; PADDING-TOP: 7px; PADDING-LEFT: 5px; PADDING-RIGHT: 20px">Сумма</TH></TR>%ВЫПОЛНИТЬ(ПолучитьТабличнуюЧасть(ОбъектПечати))% 
+<TR>
+<TD style="BORDER-TOP: #e8e8e8 1px solid; PADDING-BOTTOM: 15px; TEXT-ALIGN: left; PADDING-TOP: 15px; PADDING-LEFT: 20px; PADDING-RIGHT: 5px"></TD>
+<TD style="BORDER-TOP: #e8e8e8 1px solid; PADDING-BOTTOM: 15px; TEXT-ALIGN: center; PADDING-TOP: 15px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px"></TD>
+<TD class=order-products__total style="FONT-SIZE: 12px; BORDER-TOP: #e8e8e8 1px solid; FONT-WEIGHT: 700; PADDING-BOTTOM: 15px; TEXT-ALIGN: center; PADDING-TOP: 15px; PADDING-LEFT: 5px; PADDING-RIGHT: 20px" colSpan=2>Итого к оплате: %СуммаДокумента% <IMG alt="" src="https://www.velostrana.ru/assets/mail/1c-mail/images/rub-b.jpg"></TD></TR></TBODY></TABLE></DIV>
+<DIV class="order-info bg-white" style="BORDER-BOTTOM: #e8e8e8 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff">
+<DIV class=email-wrap style="OVERFLOW: hidden; WIDTH: 560px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: auto; PADDING-RIGHT: 20px">
+<TABLE class=order-info__table style="WIDTH: 100%; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<TBODY>
+<TR>
+<TD style="VERTICAL-ALIGN: top">
+<TABLE class=order-info__text>
+<TBODY>
+<TR>
+<TD style="VERTICAL-ALIGN: top; PADDING-RIGHT: 25px"><IMG alt="" src="https://www.velostrana.ru/assets/mail/1c-mail/images/clock.jpg"></TD>
+<P style="COLOR: #888; MARGIN: 0px; LINE-HEIGHT: 24px">Пожалуйста, проверьте Ваши персональные данные: 
+<P></P>
+<P style="COLOR: #888; MARGIN: 0px; LINE-HEIGHT: 16px">ФИО: %ВЫПОЛНИТЬ(ОбъектПечати.Контрагент)%</P>
+<P style="COLOR: #888; MARGIN: 0px; LINE-HEIGHT: 16px">Телефон: %Телефон%</P>
+<P style="COLOR: #888; MARGIN: 0px; LINE-HEIGHT: 16px">Email: %EMAIL%</P>
+<P style="COLOR: #888; MARGIN: 0px; LINE-HEIGHT: 16px">Город доставки: %ГородДоставки%</P>
+<TD style="VERTICAL-ALIGN: top">Ваш заказ получил статус: заказ принят, первично зарезервирован и находится в стадии оплаты. После получения денежных средств весь заказ будет отправлен в ваш город.</TD></P></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV class="order-link bg-white" style="FONT-SIZE: 12px; BORDER-BOTTOM: #e8e8e8 1px solid; FONT-WEIGHT: 700; PADDING-BOTTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff">
+<DIV class=email-wrap style="OVERFLOW: hidden; WIDTH: 560px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: auto; PADDING-RIGHT: 20px">Пройдя по данной ссылке, заполните необходимые поля для оплаты вашего заказа: %ВЫПОЛНИТЬ(ДопПоля.СсылкаНаОплату)%</DIV></DIV>
+<DIV class="order-delivery bg-grey" style="BORDER-BOTTOM: #e8e8e8 1px solid; PADDING-BOTTOM: 30px; PADDING-TOP: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #f4f6f7">
+<DIV class=email-wrap style="OVERFLOW: hidden; WIDTH: 560px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: auto; PADDING-RIGHT: 20px">
+<TABLE class=order-delivery__table style="WIDTH: 100%; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<TBODY>
+<TR>
+<TD style="VERTICAL-ALIGN: top; PADDING-RIGHT: 25px"><IMG alt="" src="https://www.velostrana.ru/assets/mail/1c-mail/images/info.jpg"></TD>
+<TD style="VERTICAL-ALIGN: top"><STRONG>ВАЖНО!</STRONG> Если требуется отправка велосипеда в регион через транспортную компанию нам необходимы ваши (или получателя велосипеда) ПАСПОРТНЫЕ ДАННЫЕ (ФИО, СЕРИЯ, НОМЕР)! Без них осуществить отгрузку <STRONG><FONT color=#ff0000>НЕ возможно</FONT></STRONG>. Отправить данные можно ответом на это письмо, или по телефону колл-центра: <STRONG>8 (800) 100-22-33</STRONG><BR><BR>С уважением, %Пользователь%</TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV class="order-steps bg-white" style="BORDER-BOTTOM: #e8e8e8 1px solid; PADDING-BOTTOM: 25px; PADDING-TOP: 25px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff">
+<DIV class=email-wrap style="OVERFLOW: hidden; WIDTH: 560px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: auto; PADDING-RIGHT: 20px">
+<H3 style="FONT-SIZE: 14px; TEXT-ALIGN: center; MARGIN: 0px 0px 20px">Последовательность дальнейших действий следующая:</H3>
+<TABLE class=order-steps__table style="WIDTH: 100%; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<TBODY>
+<TR>
+<TD style="PADDING-BOTTOM: 7px; PADDING-RIGHT: 15px"><IMG alt="" src="https://www.velostrana.ru/assets/mail/1c-mail/images//1.jpg"></TD>
+<TD style="PADDING-BOTTOM: 7px">Оплатите заказ в течении 24 часов по ссылке.</TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 7px; PADDING-RIGHT: 15px"><IMG alt="" src="https://www.velostrana.ru/assets/mail/1c-mail/images/2.jpg"></TD>
+<TD style="PADDING-BOTTOM: 7px">Заказ будет передан в транспортную компанию в течении 3-х дней, после оплаты. Вы получите уведомление.</TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 7px; PADDING-RIGHT: 15px"><IMG alt="" src="https://www.velostrana.ru/assets/mail/1c-mail/images/3.jpg"></TD>
+<TD style="PADDING-BOTTOM: 7px">Ожидайте заказ, средний срок доставки на сайте: <A style="COLOR: #20b6f3; OUTLINE-STYLE: none" href="https://www.velostrana.ru/dostavka-i-oplata/">Доставка</A>. Заказ неоходимо забрать в филиале ТК.</TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 7px; PADDING-RIGHT: 15px"><IMG alt="" src="https://www.velostrana.ru/assets/mail/1c-mail/images/4.jpg"></TD>
+<TD style="PADDING-BOTTOM: 7px">Если в вашем городе есть магазин ВелоСтрана, то вы можете забрать заказ&nbsp;в магазине или оформить доставку до двери.</TD></TR></TBODY></TABLE></DIV></DIV><!--bottom-->
+<DIV class=email-bottom style="BORDER-BOTTOM: #e8e8e8 1px solid; PADDING-BOTTOM: 35px; PADDING-TOP: 45px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #f4f6f7">
+<DIV class=email-wrap style="OVERFLOW: hidden; WIDTH: 560px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: auto; PADDING-RIGHT: 20px">
+<DIV class=email-bottom__col style="FONT-SIZE: 14px; WIDTH: 50%; FLOAT: left">
+<H3 style="FONT-SIZE: 18px; TEXT-TRANSFORM: uppercase; FONT-WEIGHT: 700; MARGIN: 0px 0px 20px">Контакты</H3>
+<P style="COLOR: #888; MARGIN: 0px; LINE-HEIGHT: 24px">E-mail: <A style="TEXT-DECORATION: none; COLOR: #0096ff; OUTLINE-STYLE: none" href="mailto:info@velostrana.ru"><STRONG>info@velostrana.ru</STRONG></A></P>
+<P style="COLOR: #888; MARGIN: 0px; LINE-HEIGHT: 24px">Телефон: <A style="TEXT-DECORATION: none; COLOR: #0096ff; OUTLINE-STYLE: none" href="tel:88001002233"><STRONG>8 (800) 100-22-33</STRONG></A></P></DIV>
+<DIV class=email-bottom__col style="FONT-SIZE: 14px; WIDTH: 50%; FLOAT: left">
+<H3 style="FONT-SIZE: 18px; TEXT-TRANSFORM: uppercase; FONT-WEIGHT: 700; MARGIN: 0px 0px 20px">О компании</H3>
+<P style="COLOR: #888; MARGIN: 0px; LINE-HEIGHT: 24px">ВелоСтрана – это сеть крупнейших велосипедных магазинов и один из ведущих поставщиков велосипедов и аксессуаров в России.</P></DIV></DIV></DIV><!--shops-->
+<H3 style="PADDING-BOTTOM: 10px; PADDING-TOP: 25px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff" align=center><A href="https://www.velostrana.ru/buyer/">Информация для покупателей</A><!--footer--></H3>
+<DIV class=email-footer style="PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff">
+<DIV class=email-wrap style="OVERFLOW: hidden; WIDTH: 560px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: auto; PADDING-RIGHT: 20px">
+<DIV class=email-footer__logo style="FLOAT: left"><A style="TEXT-DECORATION: none; COLOR: #20b6f3; OUTLINE-STYLE: none" href="http://www.velostrana.ru/"><IMG alt=Велострана src="https://www.velostrana.ru/assets/mail/1c-mail/images/logo.jpg" width=191></A></DIV>
+<DIV class=email-footer__soc style="FONT-SIZE: 14px; FLOAT: right; COLOR: #888; TEXT-ALIGN: right; PADDING-TOP: 10px">Всё самое полезное и актуальное в наших соцсетях: 
+<DIV class=soc-list style="MARGIN-TOP: 10px"><A style="TEXT-DECORATION: none; COLOR: #20b6f3; OUTLINE-STYLE: none; MARGIN: 0px 7px; DISPLAY: inline-block" href="https://vk.com/velostrana"><IMG alt=fb src="https://www.velostrana.ru/assets/mail/1c-mail/images//vk-grey.png" width=23></A><A style="TEXT-DECORATION: none; COLOR: #20b6f3; OUTLINE-STYLE: none; MARGIN: 0px 7px; DISPLAY: inline-block" href="https://ok.ru/velostrana/"> <IMG alt=youtube src="https://www.velostrana.ru/assets/mail/1c-mail/images/ok-grey.png" width=13></A><A style="TEXT-DECORATION: none; COLOR: #20b6f3; OUTLINE-STYLE: none; MARGIN: 0px 7px; DISPLAY: inline-block" href="http://t.me/velostranabot"> <IMG alt="" src="https://www.velostrana.ru/assets/mail/1c-mail/images/tgram-grey.png" width=16></A></DIV></DIV></DIV></DIV><!--copyright-->
+<DIV class=email-copyright style="FONT-SIZE: 14px; COLOR: #fff; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #20b6f3">
+<DIV class=email-wrap style="OVERFLOW: hidden; WIDTH: 560px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: auto; PADDING-RIGHT: 20px">©&nbsp;ВелоСтрана.ру – Мы знаем о велосипедах всё!</DIV></DIV></TD></TR>
+<TR>
+<TD></TD></TR></TBODY></TABLE></DIV></BODY></HTML>

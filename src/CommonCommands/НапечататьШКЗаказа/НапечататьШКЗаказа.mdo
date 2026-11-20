@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33d54ce2-7e95-4f1e-a94c-1b965a7f9de9">
+  <name>НапечататьШКЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напечатать ШК заказа</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.ЗаказПокупателя</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.BarcodeScanner_32</picture>
+  </picture>
+</mdclass:CommonCommand>

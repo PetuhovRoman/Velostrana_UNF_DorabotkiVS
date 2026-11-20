@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23ce221a-9c25-4a97-bbcd-23a822825731">
+  <name>ВС_ОблачныеКассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>В с облачные кассы</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

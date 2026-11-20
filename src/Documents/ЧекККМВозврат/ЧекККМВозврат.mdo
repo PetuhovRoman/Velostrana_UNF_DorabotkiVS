@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="be5c3c5b-815f-4103-9061-1f92f6fe0328" extendedConfigurationObject="5c87dde9-1727-48e8-aef5-67317291c046">
+  <producedTypes>
+    <objectType typeId="f82b757a-7028-49e7-af93-e226c45a7131" valueTypeId="d212e70c-9d7b-42c5-b7ab-f87ce7121915"/>
+    <refType typeId="04d75a33-1aaa-4bbd-82a8-de40f85f3b43" valueTypeId="870ae73a-0f95-41c0-b08b-2b715d111a6c"/>
+    <selectionType typeId="0fdb345f-1918-4adf-ad4b-54fdb1a30da1" valueTypeId="c277dda7-59c7-49ea-b272-97f08753fa27"/>
+    <listType typeId="30e83b8a-2c2a-43f0-83df-56376c0ace21" valueTypeId="f33fb893-6b21-4a09-8a9d-8024f0d8c37e"/>
+    <managerType typeId="2e8c7b51-46fc-40d6-9c65-c9323ebbd78b" valueTypeId="c30ec00f-dfd7-4d32-9a82-e5d0934022bc"/>
+  </producedTypes>
+  <name>ЧекККМВозврат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

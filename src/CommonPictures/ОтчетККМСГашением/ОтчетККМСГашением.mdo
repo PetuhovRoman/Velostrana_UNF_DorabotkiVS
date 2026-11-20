@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b9834b6-3c6c-4bb7-961a-76ec900e019c">
+  <name>ОтчетККМСГашением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет ККМ с гашением</value>
+  </synonym>
+  <transparentPixel>
+    <x>3</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

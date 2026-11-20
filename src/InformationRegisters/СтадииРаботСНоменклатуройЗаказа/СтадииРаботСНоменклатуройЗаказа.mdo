@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4ee7d0f-1878-473e-b20a-e39c653ce0b6">
+  <producedTypes>
+    <selectionType typeId="0cbc15b5-d5f5-443f-8105-0bc746955908" valueTypeId="6ff26a7e-7dcc-414e-89ea-f029800ab988"/>
+    <listType typeId="3b417b12-76ab-4c7e-a73a-798d4c6f936e" valueTypeId="9db638b7-934e-404a-9d35-efeb373f4c0d"/>
+    <managerType typeId="78ff5c18-3b10-4aef-a440-e2beff4db9a8" valueTypeId="1cfc5cc2-4ee7-40bf-a744-1f9db463e417"/>
+    <recordSetType typeId="801e6e3d-dcb7-40c0-9c6b-047f2e73da64" valueTypeId="e40052f1-14ba-4318-b918-7e1a06ce5c1c"/>
+    <recordKeyType typeId="4bc12755-101c-4762-bb3c-707591d56a6c" valueTypeId="79363a80-f150-44e5-92ec-1ffe4c382e4f"/>
+    <recordType typeId="7d9a3af0-9512-4be1-8919-b96ae9240445" valueTypeId="50611163-4891-481c-9ec0-afcacb513e33"/>
+    <recordManagerType typeId="6a9e7375-0149-4eb4-b64b-df4c83564220" valueTypeId="12279432-a835-4b5a-afa7-18bdf4e57f82"/>
+  </producedTypes>
+  <name>СтадииРаботСНоменклатуройЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стадии работ с номенклатурой заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="79a1151a-d693-4a5b-8f0d-fad6534cd6cd">
+    <name>ЗаказПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ покупателя</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="73c51a97-a964-4f1c-aaab-eac9b7fa6ae4">
+    <name>Сборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаданиеНаРаботу</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6dbd673e-798a-4129-be1f-1378396ff608">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаданиеНаРаботу</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="df0dba9d-ec60-4219-a71d-80018d4a787b">
+    <name>Установка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаданиеНаРаботу</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

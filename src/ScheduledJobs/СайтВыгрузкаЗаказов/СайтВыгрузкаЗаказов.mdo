@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dcc43fc-3f72-4eb2-a1dc-2c21f19fa485">
+  <name>СайтВыгрузкаЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сайт: Выгрузка заказов</value>
+  </synonym>
+  <methodName>CommonModule.ОбменДаннымиССайтом.ВыгрузитьЗаказы</methodName>
+  <description>Сайт: Выгрузка заказов</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

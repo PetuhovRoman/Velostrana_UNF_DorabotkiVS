@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff88cf8f-b790-4169-be01-a167de3fc7eb">
+  <producedTypes>
+    <objectType typeId="c333205e-9c51-495c-b877-d21ad2884989" valueTypeId="5a21ce07-ca0a-4928-a0ea-03b4add98bf7"/>
+    <managerType typeId="3c044825-4fc4-4cc7-ab19-8e15921eb182" valueTypeId="5c6d800f-f9db-4158-a092-1da4ef38c4f9"/>
+  </producedTypes>
+  <name>МобильноеРабочееМестоКладовщика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное рабочее место кладовщика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МобильноеРабочееМестоКладовщика.Form.РабочийСтол</defaultForm>
+  <forms uuid="62e0864e-f3df-4319-95f4-7b1d7a86eb64">
+    <name>ЗаданиеНаПеремещениеТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на перемещение товаров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="40958bc0-4a4d-4f54-a4f3-58e9815ca093">
+    <name>КарточкаТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка товара</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4639d6e9-551e-42c7-8ead-409222a20561">
+    <name>ПересчетТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересчет товаров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b624ffb8-8b1c-4351-ac39-4479c7b23aec">
+    <name>ПоискПоТовару</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по товару</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7720e78a-477e-4f0e-8c40-4ec842aad014">
+    <name>ПоискПоЯчейке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по ячейке</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f0c4ecb1-898d-45fb-883b-661f07870be3">
+    <name>РабочийСтол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий стол</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb451d11-b28f-4476-a5f8-2003274ff948">
+    <name>РазмещениеВЯчейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение в ячейки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c86648d-bfd2-4e99-ac8f-acccd327f6a6">
+    <name>РаспоряженияНаОтгрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распоряжения на отгрузку</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8296ac6-0e07-40de-ad5f-92f83e489f24">
+    <name>РаспоряженияНаПриемку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распоряжения на приемку</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a4f98752-8505-49cc-9b09-69cf9500cbd5">
+    <name>РедактированиеТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование товара</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0f7d1fda-ed4c-4a88-b595-a0b56a46c3fd">
+    <name>СканированиеШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканирование штрихкода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb36b20b-4a1a-4210-8b81-a6c9c51d92df">
+    <name>СписокБлокировок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список блокировок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d82fe7af-6aa7-40b8-be7a-7a04410d156f">
+    <name>СписокЗаданийНаПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список заданий на перемещение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f3a2b93-aeaf-4cc0-9249-16bd438dadd7">
+    <name>СписокКодовМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список кодов маркировки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ef4f83cb-bc85-4212-9a19-731a0167c2aa">
+    <name>СписокПересчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список пересчетов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d000edce-055e-4cb5-83bb-987e87474d2d">
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="446f9b10-2a2e-4bac-bfe4-ffedbbb036f8">
+    <name>ФормаАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма авторизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="359c8c39-ac5b-41a6-b9e4-44a9db5892a8">
+    <name>ФормаВопросаСканирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вопроса сканирование</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1dd93935-1995-4681-ade4-fde18e827477">
+    <name>ФормаВыбораСканирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора сканирование</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="edb36536-2fad-4f52-99f2-21700a55ef22">
+    <name>Штрихкоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкоды</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="61cab4a9-b374-49ad-b5b1-739800574b93">
+    <name>Ячейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2b413fec-754d-4213-b59e-af67a1d0fc1b">
+    <name>ПриходныйОрдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПриходныйОрдер</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

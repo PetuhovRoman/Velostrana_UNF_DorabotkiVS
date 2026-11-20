@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d63ef6cd-4c62-4a6b-a309-48c718d273ca">
+  <name>ЗаказыПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы покупателей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.РаспределениеЗаказовПокупателей</content>
+  <content>InformationRegister.ОтветственныеЗаЗаказыПокупателей</content>
+  <content>DataProcessor.НастройкаВыгрузкиЗаказовВЛК</content>
+  <content>InformationRegister.СтадииРаботСНоменклатуройЗаказа</content>
+  <content>InformationRegister.СайтНастройкаЗагрузкиЗаказов</content>
+  <parentSubsystem>Subsystem.Велострана</parentSubsystem>
+</mdclass:Subsystem>

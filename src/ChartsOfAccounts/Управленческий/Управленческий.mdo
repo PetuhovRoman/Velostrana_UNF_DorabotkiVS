@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7738b38f-ec15-472a-880c-7abc42a7b8d5" extendedConfigurationObject="3b0c4744-6437-4ccc-bc96-9dd9bae7a7ae">
+  <producedTypes>
+    <objectType typeId="468f61d5-f55e-4d3d-9385-44ba8398e228" valueTypeId="a5078f59-6311-4a53-81f6-b0e0a0638126"/>
+    <refType typeId="da1cc23d-db2f-45d7-a293-6e1c9d405ae1" valueTypeId="8bb31218-ecf9-447c-98e7-36bfc6fb078e"/>
+    <selectionType typeId="6ef928b7-a482-4a52-ba24-4be2ad5781e1" valueTypeId="4ae84445-30ff-4cfa-87f5-8bafa495552d"/>
+    <listType typeId="26a8024d-5569-400f-a36a-575a906e8249" valueTypeId="7e5ec0d1-038b-476e-9037-a24ff27c0385"/>
+    <managerType typeId="48537905-ae97-4172-9364-e376d086bdef" valueTypeId="aa91c327-9ee3-43df-b825-a121ade88e0a"/>
+    <extDimensionTypes typeId="6952d0c5-edba-40b7-93be-5a37a73a2e76" valueTypeId="72acae49-7261-41a2-a690-6bb77b9a6add"/>
+    <extDimensionTypesRow typeId="e6b35266-a7e8-4004-983b-96b1f14fdfbf" valueTypeId="413f4de5-06b1-4784-b983-9f6fb8f99c9d"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfAccountsExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:ChartOfAccounts>

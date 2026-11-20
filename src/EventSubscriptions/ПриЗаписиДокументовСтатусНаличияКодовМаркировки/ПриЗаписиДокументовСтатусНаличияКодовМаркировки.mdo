@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98186af6-7cea-45ae-abc0-f1b4c340ee58">
+  <name>ПриЗаписиДокументовСтатусНаличияКодовМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи документов статус наличия кодов маркировки</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПеремещениеЗапасов</types>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.РасходнаяНакладная</types>
+    <types>DocumentObject.ПриходнаяНакладная</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ВС_ПодпискиНаСобытия.ПриЗаписиДокументовСтатусНаличияКодовМаркировки</handler>
+</mdclass:EventSubscription>

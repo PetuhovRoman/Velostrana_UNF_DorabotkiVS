@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea5db0bc-3f56-46da-b044-b22094f067f4">
+  <name>СинхронизацияОстатковУТ10</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация остатков с УТ10</value>
+  </synonym>
+  <methodName>CommonModule.ОбменДаннымиСУТ10.ВыполнитьЗагрузкуОстатков</methodName>
+  <description>Синхронизация остатков с УТ10</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

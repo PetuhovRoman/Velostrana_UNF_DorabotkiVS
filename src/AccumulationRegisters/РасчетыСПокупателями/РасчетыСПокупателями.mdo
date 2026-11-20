@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f6ae7885-9251-4226-bc5b-0be56f445e6a" extendedConfigurationObject="8fa5dae7-0bd0-4362-b9f3-80866a2bb0b1">
+  <producedTypes>
+    <selectionType typeId="2c78c0cb-1949-424e-b9cd-56a0ffeb919b" valueTypeId="d47d20d6-5464-4e97-8231-20a0f1436555"/>
+    <listType typeId="1d9bd350-2894-4592-8d91-f4a0aaf48e49" valueTypeId="d8964743-6230-48f3-b58a-d9cc9d46c8c6"/>
+    <managerType typeId="4e3cc36b-c7be-4dfd-8664-a438380dccac" valueTypeId="f579bc50-95e3-44a2-acda-e81e3e9e4aac"/>
+    <recordSetType typeId="fa02fa6f-dcfb-40df-b2db-3bb4185c7c5d" valueTypeId="27c8df1b-c7bd-433c-9c74-a3f380f8aa9f"/>
+    <recordKeyType typeId="a160a6b4-b729-4daf-9a48-efe8da5b0917" valueTypeId="9b1cf65f-a05b-4c28-9e44-c755ebd50c62"/>
+    <recordType typeId="8a21eb58-7257-4e0f-8b5c-f9fea23bf482" valueTypeId="c9f32056-373d-464e-97f7-7bee6ab10bb7"/>
+  </producedTypes>
+  <name>РасчетыСПокупателями</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <dimensions uuid="cb2a5414-d511-499e-b68e-478e179b8ac1" extendedConfigurationObject="49af6afe-e751-4760-bd15-682ca925c22f">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Extended</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+        <types>
+          <state>Extended</state>
+          <type>CatalogRef.ДисконтныеКарты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:AccumulationRegister>

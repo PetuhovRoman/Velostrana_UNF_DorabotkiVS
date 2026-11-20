@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3c86ea40-0cef-4878-89c3-e3748bb77e17" extendedConfigurationObject="d46a1508-b797-4a66-bb6f-11c8f68adb43">
+  <producedTypes>
+    <refType typeId="e8719751-ab3a-4137-bd69-24d34337bf6f" valueTypeId="1f675fde-eee8-41c3-adaa-ee054b3639be"/>
+    <listType typeId="e5331d9c-c4cb-4ebb-a0c3-c3f6eb224567" valueTypeId="221d189b-c0ee-4d97-b668-d2c1ec6ef05e"/>
+    <managerType typeId="4573991f-9d20-4e4e-af9b-9754f1176db8" valueTypeId="de92f8e1-d639-4e61-b620-553242d46d3a"/>
+  </producedTypes>
+  <name>ВидыОтборовНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="942c8096-2546-445d-afd6-40b47870166b" extendedConfigurationObject="f39ba878-d4af-4cc3-a713-f5bedd333ccf">
+    <name>КатегорииНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="84b2f1e2-9ce7-4a73-95a8-5dd6441a0251" extendedConfigurationObject="c313de73-3745-4edd-bf09-611d93e53e04">
+    <name>ГруппыНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="f77e5e09-7a7c-4bc9-9f2b-2228c5df469a" extendedConfigurationObject="5a76485a-fce7-4fbd-868b-f8052a7518e0">
+    <name>СегментыНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

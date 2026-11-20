@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df1d5a46-9bba-4de6-a27e-aea1cd173f5a">
+  <name>Велострана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Велострана</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Велосипед32</picture>
+  </picture>
+  <content>CommonPicture.Велосипед32</content>
+  <content>Role.ВС_ОсновнаяРоль</content>
+  <content>DataProcessor.ЗагрузкаНакладныхВУНФИзУТ10</content>
+  <content>Catalog.ТорговыеМарки</content>
+  <content>DataProcessor.СписокНоменклатуры</content>
+  <content>DataProcessor.УправлениеВнутреннимиОборотами</content>
+  <content>DataProcessor.ГенераторПодарочныхКарт</content>
+  <content>DataProcessor.ЗагрузкаДанныхАнвиз</content>
+  <subsystems>Сервис</subsystems>
+  <subsystems>ЗаказыПокупателей</subsystems>
+  <subsystems>Анвиз</subsystems>
+  <subsystems>РасчетЗП</subsystems>
+  <subsystems>Инфинити</subsystems>
+</mdclass:Subsystem>

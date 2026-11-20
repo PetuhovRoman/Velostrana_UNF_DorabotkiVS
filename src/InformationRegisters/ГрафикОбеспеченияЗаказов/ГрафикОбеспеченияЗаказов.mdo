@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b535816e-e6c5-4d4a-aa69-718e10afdded">
+  <producedTypes>
+    <selectionType typeId="e2a26f2d-e1bd-4594-ab52-b638fef0468f" valueTypeId="47059356-2a48-41ca-b9f7-d9110f57c895"/>
+    <listType typeId="485cca0b-9a09-4aba-91f6-0a7af8025b51" valueTypeId="63d6ff19-8043-4652-a76a-859fbe437055"/>
+    <managerType typeId="2437c123-caed-4497-86a9-eb5fa6222fb2" valueTypeId="5eca683d-f5a9-40a4-9839-af0c57139ba1"/>
+    <recordSetType typeId="99dc7a16-5a29-4376-b5a6-6c87d459097f" valueTypeId="69fb20a3-c5e7-4f6d-8bef-c9ccf502beb9"/>
+    <recordKeyType typeId="f7ae4e3b-9ae5-4b74-a6ee-ebb0b3f14b91" valueTypeId="3861df43-a125-4abe-950d-f203c5b66eb7"/>
+    <recordType typeId="3b7c6272-e77e-4cb5-929a-0caadcacbebf" valueTypeId="3550c258-baef-4a0e-8a7e-0318b260a00b"/>
+    <recordManagerType typeId="3f4b571d-e803-4b48-8f4e-087a28f471a2" valueTypeId="053e1fba-8af9-47fe-a22c-d6a38be4760b"/>
+  </producedTypes>
+  <name>ГрафикОбеспеченияЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>График обеспечения заказов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ГрафикОбеспеченияЗаказов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c2142ae8-1384-43f7-8a85-c256cee399a6">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a84ab7b3-c4e6-405c-9b9c-b58bd613ebe9">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d230221f-5556-4a8c-b58e-a1e2408e20ef">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

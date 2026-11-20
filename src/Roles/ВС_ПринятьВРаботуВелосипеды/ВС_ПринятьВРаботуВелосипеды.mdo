@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a6d0b23-3423-48ab-9831-220965b4972b">
+  <name>ВС_ПринятьВРаботуВелосипеды</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС Принять в работу велосипеды</value>
+  </synonym>
+</mdclass:Role>

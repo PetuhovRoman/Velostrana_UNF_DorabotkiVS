@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96046d98-5214-4e3e-8ae4-285c1b1873c4">
+  <producedTypes>
+    <objectType typeId="3d2b612e-f9d1-4652-b3ac-189d71b77c55" valueTypeId="baaa87c7-7c98-4072-9d86-14bda3909a26"/>
+    <managerType typeId="0d9d2550-6792-4f6a-a1bf-6ae468a2d8ec" valueTypeId="ee982f7f-4003-4e70-bc76-a98e9e30b4eb"/>
+  </producedTypes>
+  <name>ЗагрузкаОстатковВУНФИзУТ10</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка остатков в УНФ из УТ10</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаОстатковВУНФИзУТ10.Form.Форма</defaultForm>
+  <attributes uuid="6ae0e423-76e7-4a71-bb79-ff0c57100e51">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b5c9cc4e-6238-436c-b5d6-20c80332f3ff">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

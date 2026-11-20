@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="70e23b4c-3711-4984-8570-d09cf0226e8f" extendedConfigurationObject="9d8e09d4-753a-421c-a041-840d13ac7fdd">
+  <producedTypes>
+    <refType typeId="f588b2cf-3314-4373-ab43-f6772a610118" valueTypeId="5e294575-f8cb-4568-a34f-0736aeae9d41"/>
+    <listType typeId="d14e129b-eeb5-4234-85ee-545bcdd3215e" valueTypeId="3ab98c75-e827-4ab0-a928-939ba92aacde"/>
+    <managerType typeId="0e7a7f2e-e6fa-432f-93c3-5a5d1886e706" valueTypeId="b1dd6df7-7542-4f54-bd85-bd7dcdea6e1d"/>
+  </producedTypes>
+  <name>ТипыСчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="5f5bece1-52e1-4a91-b8ff-837ce8ca9fb2" extendedConfigurationObject="3a3fbf65-51fa-4811-922b-b3ba02eca8bf">
+    <name>Расходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="feaef9f1-fefd-470c-8f4c-86ac25fbf8aa" extendedConfigurationObject="70ee4c0b-2257-44f3-bfa4-d609a59160b3">
+    <name>ПрочиеРасходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="f79ac4a7-f8bb-4f5a-93bc-ac942ab2f6da" extendedConfigurationObject="1afcd952-5525-4193-b0d9-ca932ae1cdc9">
+    <name>НезавершенноеПроизводство</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b534b55e-c24d-4bcb-b5d2-7d44f4cd6400" extendedConfigurationObject="c63e7296-8bd5-4572-b1ca-d62e9d4681b3">
+  <producedTypes>
+    <objectType typeId="351af6e1-dc26-45bf-bacd-b4872e54ad59" valueTypeId="a8ff4a2b-89be-417a-aee3-e5f7444d5a37"/>
+    <refType typeId="873d24e5-def5-4258-a9e5-246666fe30f2" valueTypeId="2545fefa-51f1-4b51-9faf-cd65d0dc026b"/>
+    <selectionType typeId="fceafc1e-ae2e-48e7-8618-25444029fdcd" valueTypeId="d3edf84f-003d-4ed9-b672-d44885c1065c"/>
+    <listType typeId="f1f97db7-1e05-470b-bdea-f29100ca4b94" valueTypeId="5956ebf9-91ca-444b-a132-db1b548a20ef"/>
+    <managerType typeId="fa754266-95ec-4b8a-9703-727d2008ea2e" valueTypeId="5ba492da-2bd7-4ee3-bbd7-2a63ea491f63"/>
+  </producedTypes>
+  <name>ПеремещениеЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="939697c4-eade-4604-8509-2177ce654fc6" extendedConfigurationObject="e3d56259-3c9a-493f-874e-9f41738c2634">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="648a1300-0e17-4f39-be66-c9ea777ddad8" extendedConfigurationObject="b81e7f1e-00a3-4630-acf3-d151c3ea04f9">
+    <producedTypes>
+      <objectType typeId="cad32d74-434c-478a-8c45-040f8c1da21e" valueTypeId="87029828-acb1-4495-bba3-13ad450c4b0a"/>
+      <rowType typeId="01ddb3b8-90b2-4df7-ae9c-5cebcf46bd56" valueTypeId="bc3c9e3d-b586-4c8f-a400-5783fbd756ab"/>
+    </producedTypes>
+    <name>ШтрихкодыУпаковок</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="b4acb5a1-aebd-48fb-9fb4-3bb59320a044">
+      <name>ЗначениеШтрихкода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение штрихкода</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="eb9e70c7-1971-4e1b-acf0-d1f8627551fe">
+      <name>ЧастичноеВыбытиеКоличество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Частичное выбытие количество</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>18</precision>
+          <scale>8</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6be91a8a-02e9-414f-b181-e597e6a5aa82">
+      <name>ЧастичноеВыбытиеВариантУчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Частичное выбытие вариант учета</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>EnumRef.ВариантыУчетаЧастичногоВыбытияИС</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9ade79fe-e087-4e06-b318-a5675c603984">
+      <name>ЧастичноеВыбытиеНоменклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Частичное выбытие номенклатура</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>DefinedType.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e10c0b0c-3922-4438-81e3-b7cf9f77f48a">
+      <name>ЧастичноеВыбытиеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Частичное выбытие характеристика</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>DefinedType.ХарактеристикаНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="073ecd93-4073-4f25-88e7-032d9983e226">
+      <name>РазрешительныйРежимИдентификаторЗапросаГИСМТ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешительный режим идентификатор запроса ГИС МТ</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>DefinedType.УникальныйИдентификаторИС</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="849336a7-688f-428b-9043-f1d86c0706b5">
+      <name>РазрешительныйРежимДатаЗапросаГИСМТ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешительный режим дата запроса ГИС МТ</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>14</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="78ddf177-8953-461f-bd0d-cf9eb9bb00c4">
+      <name>ВыбытиеБутылки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбытие бутылки</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f864423c-86ac-4f51-91b1-259184afdab6">
+      <name>РазрешительныйРежимИдентификаторЭкземпляраПО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешительный режим идентификатор экземпляра ПО</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>DefinedType.УникальныйИдентификаторИС</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a0a49dee-b912-401c-9883-253246f2c98b">
+      <name>РазрешительныйРежимВерсияБазы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешительный режим версия базы</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>DefinedType.УникальныйИдентификаторИС</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

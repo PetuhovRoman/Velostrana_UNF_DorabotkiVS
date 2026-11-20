@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2d2ce01-34dc-45bc-98b0-69513f715a1d">
+  <producedTypes>
+    <selectionType typeId="24fb6d18-ae1a-4b7b-a0d3-0b6c522b1111" valueTypeId="8b37cd29-ae32-48db-b6cf-d69bece419ee"/>
+    <listType typeId="a1dc901a-7ad0-4133-a124-9872e9fa39ce" valueTypeId="024a6379-1889-4621-b4c3-75eb66dbd294"/>
+    <managerType typeId="6398b2cf-cd20-41af-94e6-78f34f310e12" valueTypeId="d9031c6b-be18-4a3d-83e6-a70fecc56548"/>
+    <recordSetType typeId="0f455b0b-7a3b-45a3-90e6-4ed8c37fc164" valueTypeId="e59753d4-e2f6-4014-8f5f-c713b1dceb9c"/>
+    <recordKeyType typeId="84aa7743-c3eb-401e-91d4-8a610d528541" valueTypeId="82a424be-eca8-4abb-be90-127a3f94e0e1"/>
+    <recordType typeId="76485035-4532-43a5-b042-5b11701e9bb6" valueTypeId="d521cf60-55f3-49bf-95a4-a606cfe88850"/>
+    <recordManagerType typeId="21b1e2bf-a9d0-4a23-a087-f12f66db10dd" valueTypeId="716ae804-6db5-4d65-86b6-5967467244b8"/>
+  </producedTypes>
+  <name>ДокументыВРаботеТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы в работе на ТСД</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eeee32cc-cb5d-4955-82f9-6c6616d6ec2b">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="20f559d7-4cdb-4f1d-8272-0d96723d6417">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ac230eba-2962-42f4-8355-216ccc242c6b">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриходнаяНакладная</types>
+      <types>DocumentRef.ПеремещениеЗапасов</types>
+      <types>DocumentRef.ЗаказПокупателя</types>
+      <types>DocumentRef.РасходнаяНакладная</types>
+      <types>DocumentRef.ИнвентаризацияЗапасов</types>
+      <types>DocumentRef.ЗаказНаПеремещение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

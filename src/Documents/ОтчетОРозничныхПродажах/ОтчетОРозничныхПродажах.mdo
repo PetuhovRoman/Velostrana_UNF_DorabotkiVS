@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a54dc2cc-6383-41a1-9f62-0250351fa7bc" extendedConfigurationObject="a33fc5e5-ebf9-45ef-b794-af18b3daa928">
+  <producedTypes>
+    <objectType typeId="26e4839c-6b9b-415d-9b45-7261f803a4e8" valueTypeId="32aab002-33de-4fab-b779-237ed6c8a747"/>
+    <refType typeId="77463f8d-2825-4cde-a81d-9f05162bd11d" valueTypeId="d5cdc160-41ba-4e7d-baca-97a68c03cd00"/>
+    <selectionType typeId="57abbd54-83e8-4b41-ba0e-c9236200f9ab" valueTypeId="686ebeef-d794-4fb7-ad3c-e057dd80d8d2"/>
+    <listType typeId="aec56cdf-b3e2-4aba-88f0-c7f8d52755c5" valueTypeId="8eb2d55b-05e5-4a8f-baca-0118e4d8b212"/>
+    <managerType typeId="df73a78c-43ba-4591-9907-003859f5a1b6" valueTypeId="d22939fe-447c-4bdc-a60d-fb62ca61090a"/>
+  </producedTypes>
+  <name>ОтчетОРозничныхПродажах</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

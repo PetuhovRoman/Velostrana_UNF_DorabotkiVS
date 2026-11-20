@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcbd4530-9082-4735-b8bc-0895f3fbce83">
+  <producedTypes>
+    <refType typeId="431ca7f5-de05-4e87-a337-f4a0bbe48293" valueTypeId="e106b5df-dbd9-4eb0-9a22-e8f18de0c6f9"/>
+    <listType typeId="3955bee5-9d22-4834-a8da-a81e229ca2f2" valueTypeId="ca9a46b8-0ad5-419d-8383-5e64019199a5"/>
+    <managerType typeId="bf690c63-bcf8-456e-999d-91125d531231" valueTypeId="ff8b56d2-c4e9-479a-8209-8228972702eb"/>
+  </producedTypes>
+  <name>АлгоритмыРасчетаКПИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритмы расчета КПИ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="287d93b7-0748-4743-9659-ff6ed4eacef9">
+    <name>Директор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22090472-a0bb-4bfc-a119-dbbc175a6bab">
+    <name>ДиректорРегионы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Директор регионы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e546c5d-b2c9-4d32-8fbe-96a773155860">
+    <name>ЗамДиректораРегионы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зам директора регионы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1352f552-bd19-4a70-a3a3-210012f2bb22">
+    <name>Кассир</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассир</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd9a3779-2c8c-4641-8e76-799c3eeab24b">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="472eccb4-6caf-4c3c-88df-02130b30f144">
+    <name>Механик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Механик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aae8f65d-b7e7-4cfd-819a-ca3af53bca23">
+    <name>МеханикРегионы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Механик регионы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3752c304-3b49-4b74-89c7-ba42f5dab075">
+    <name>Настройщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f4f2704-9f75-4d0f-af6a-b4be822045f3">
+    <name>ПродавецРегионы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продавец регионы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37ea7ee7-652a-47cc-9ead-6b4ce482d6dd">
+    <name>Продажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c82aa659-daa3-42a0-abda-f0d33d518b33">
+    <name>РуководительКЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель КЦ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc84fb64-632f-48a5-9d73-e126a35a4a47">
+  <name>ОбменДаннымиИнфинити</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными инфинити</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

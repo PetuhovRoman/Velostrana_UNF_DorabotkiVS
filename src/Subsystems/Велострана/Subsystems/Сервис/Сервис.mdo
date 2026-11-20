@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18cc2c06-0240-4965-8c14-d0d86e70f23f">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ЗагрузкаНакладныхВУНФИзУТ10</content>
+  <content>DataProcessor.ЗагрузкаЗаказовВУНФИзУТ10</content>
+  <content>DataProcessor.ЗагрузкаОстатковВУНФИзУТ10</content>
+  <content>DataProcessor.ЗагрузкаНовойНоменклатурыВУНФИзExcel</content>
+  <content>ExchangePlan.ОбменСУТ10</content>
+  <content>ExchangePlan.ИнтеграцияСИнтернетМагазиномБонусы</content>
+  <content>DataProcessor.МобильноеРабочееМестоКладовщика</content>
+  <content>InformationRegister.ДокументыВРаботеТСД</content>
+  <content>Role.ВС_ОсновнаяРоль</content>
+  <parentSubsystem>Subsystem.Велострана</parentSubsystem>
+</mdclass:Subsystem>

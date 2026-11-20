@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ef0b0285-d185-45dd-a68a-b8fcecef88bc" extendedConfigurationObject="b57d8ff4-fd9e-4f2f-b0cf-762d593b7c40">
+  <producedTypes>
+    <objectType typeId="a30e9673-d605-4023-b739-84090fe5c170" valueTypeId="5eae4b69-df42-4019-9b5b-298f66ac05d8"/>
+    <refType typeId="556c89e1-503e-40e2-91c1-4f56c18ae728" valueTypeId="b904049c-4e94-4541-a36a-3498fa0cee76"/>
+    <selectionType typeId="380bd6b3-053e-4180-9d04-12d0c45746ed" valueTypeId="542cc90e-aa33-4d13-8197-fcde580dc1a5"/>
+    <listType typeId="78181467-4054-439b-a822-c44b8c07758f" valueTypeId="ba6276e3-07f9-4b93-8ba7-c10d1acf54d6"/>
+    <managerType typeId="2b2c327a-d078-4059-b660-28e07fc88ba2" valueTypeId="ab25355c-e749-44a7-b634-2cc50c80d453"/>
+  </producedTypes>
+  <name>ОперацияПоПлатежнымКартам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Document>

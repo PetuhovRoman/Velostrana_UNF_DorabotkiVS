@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e334b110-6919-495d-a6ad-17ed5439df93">
+  <name>ПринятьВРаботуРегионы</name>
+  <synonym>
+    <key>ru</key>
+    <value>᠎Принять в работу (регионы)</value>
+  </synonym>
+  <group>CommandGroup.ПринятьЗаказВРаботу</group>
+  <commandParameterType>
+    <types>DocumentRef.ЗаказПокупателя</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

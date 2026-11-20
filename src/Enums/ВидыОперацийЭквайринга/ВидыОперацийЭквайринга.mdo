@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9381456f-e9db-4c86-ae00-0755202de2c8" extendedConfigurationObject="2a79738e-a3bf-4ea4-aff3-224cf20003f4">
+  <producedTypes>
+    <refType typeId="7e01c2fc-c660-44d6-a6a3-00c3dd983841" valueTypeId="172826ba-5ad9-4c4a-b5e6-856144f5fa86"/>
+    <listType typeId="1c239cb6-2bce-4f0b-9167-fb3cddbcc362" valueTypeId="015f33ef-7a3b-408f-937e-2aefc19c49a7"/>
+    <managerType typeId="6d03e081-f8e3-4fa7-bb22-8030b3008272" valueTypeId="c07cd94e-3297-4d60-b026-f76acaf5c9b6"/>
+  </producedTypes>
+  <name>ВидыОперацийЭквайринга</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="21e13e7d-1f0a-4c4f-a467-f637728ad869" extendedConfigurationObject="d0817ffd-76ce-4db0-8585-9bef27e030e1">
+    <name>ОплатаСчетаЧерезСБП</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="5592dc9f-1cf3-4b19-b80f-6ac979c50332" extendedConfigurationObject="85c66010-caff-453e-b98a-38c9ab84bb8e">
+    <name>ПоступлениеОплатыОтПокупателя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="a67361d2-245b-4e2a-92e0-eca44a52cb86" extendedConfigurationObject="0ea7e2da-db55-490c-a85c-e1eca77ab8ed">
+    <name>ВозвратОплатыПокупателю</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

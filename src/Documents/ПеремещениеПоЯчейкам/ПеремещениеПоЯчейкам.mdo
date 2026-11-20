@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="60c03821-e769-4cee-8a7e-522e559669c5" extendedConfigurationObject="91471b5f-b5c5-4f2b-8391-da9a4223fbe4">
+  <producedTypes>
+    <objectType typeId="a1b9f5b2-1681-42ec-833a-81f059d347ef" valueTypeId="e2c14e35-54eb-47ad-ab88-43076b8c47aa"/>
+    <refType typeId="8b6a8709-b016-46e2-b3f3-75e060b0dbb8" valueTypeId="4e131e9d-2d20-491f-8d30-2f567b77e45f"/>
+    <selectionType typeId="7bade76c-8fbb-4916-af42-508620baeb77" valueTypeId="99a6561c-dd04-4529-a5ab-93b28a7eda18"/>
+    <listType typeId="c2bbffdf-017c-4beb-a886-f8d22f9afd46" valueTypeId="880e4333-4b0d-46b5-bd4f-2d71db46f452"/>
+    <managerType typeId="13c0d06f-6e24-40ab-8069-4dd82af52ee8" valueTypeId="d588a839-3f04-44f7-b7a6-5ad8df1bcfce"/>
+  </producedTypes>
+  <name>ПеремещениеПоЯчейкам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="789bb87f-22fb-4aac-b715-4ba70278a03d">
+    <name>СостояниеЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <tooltip>Extended</tooltip>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.СостоянияЗаказовНаПеремещение</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Состояние заказа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="20ae3cd0-5cea-4e50-9d3d-ceb417834271" extendedConfigurationObject="6cfaa9d3-74ad-4af8-a656-8eb77d76994e">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПриходнаяНакладная</type>
+        </types>
+        <types>
+          <state>Extended</state>
+          <type>DocumentRef.ПеремещениеЗапасов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="e9669998-c9af-4976-92a5-78e1c048a77f" extendedConfigurationObject="6c950d8a-d34d-46e1-9c56-8aec6973f280">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

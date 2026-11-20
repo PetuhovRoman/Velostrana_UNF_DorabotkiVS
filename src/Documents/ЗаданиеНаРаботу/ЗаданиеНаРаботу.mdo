@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7b746af9-bedb-4cdd-9209-127c7254ffab" extendedConfigurationObject="eae1be44-3cb9-4a33-bc8d-9e48abdd4599">
+  <producedTypes>
+    <objectType typeId="658f9106-89f1-44f9-ba3b-af9baf8fcced" valueTypeId="99b15a71-250f-4f7b-a1cc-6f5f19917df0"/>
+    <refType typeId="37d98abd-e9b0-48ef-a4ee-271ccd2c14f8" valueTypeId="f656bbbb-1aa9-46be-a0ac-06c62db72191"/>
+    <selectionType typeId="7ffcb6e6-0bd1-4969-ba85-e8deb906051a" valueTypeId="8fdef7c9-3a7c-4625-8c53-7e94bf4318f3"/>
+    <listType typeId="611ef6a7-98a3-4a65-aa2b-626b2b18ec5b" valueTypeId="ad58bf8e-a671-4644-a1d3-8acda5c5a25a"/>
+    <managerType typeId="9230981f-af79-4038-be59-f60e132e32b0" valueTypeId="01436250-a645-4f55-9e18-4fb97a817ea4"/>
+  </producedTypes>
+  <name>ЗаданиеНаРаботу</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="1ea8276f-9a42-45e5-8016-3ff3e2ee2684" extendedConfigurationObject="e6c0e3ea-fded-425b-a9f1-50eb024fb5f2">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64ecf28e-b59a-4952-bc8c-2734f19b8c50">
+  <name>СерыйКрестикСредний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серый крестик средний</value>
+  </synonym>
+</mdclass:CommonPicture>

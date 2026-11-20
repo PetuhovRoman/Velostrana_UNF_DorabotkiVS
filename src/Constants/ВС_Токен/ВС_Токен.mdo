@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b659b18f-33bb-418a-a94f-62612f8de8a9">
+  <producedTypes>
+    <managerType typeId="a8d8aa31-76eb-471b-a7a8-869902b8df7a" valueTypeId="71750e23-0d75-480f-bfb2-04382d27548d"/>
+    <valueManagerType typeId="0b880a1a-f38d-44ee-abbd-8c0f5fa81613" valueTypeId="bd9f8ce9-af21-42d6-a4f3-7b4f4948caa7"/>
+    <valueKeyType typeId="03eb7481-2fca-45b0-9961-fbae795c88e0" valueTypeId="80b50b63-af47-4f6e-87fc-47e9c2e3cffa"/>
+  </producedTypes>
+  <name>ВС_Токен</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВС: Токен API VS</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <passwordMode>true</passwordMode>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

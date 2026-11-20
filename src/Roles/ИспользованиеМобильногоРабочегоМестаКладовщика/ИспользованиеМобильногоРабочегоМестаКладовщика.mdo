@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="156fcf86-c1d1-4ad4-93a3-4f06e7cb98ef">
+  <name>ИспользованиеМобильногоРабочегоМестаКладовщика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование мобильного рабочего места кладовщика</value>
+  </synonym>
+</mdclass:Role>

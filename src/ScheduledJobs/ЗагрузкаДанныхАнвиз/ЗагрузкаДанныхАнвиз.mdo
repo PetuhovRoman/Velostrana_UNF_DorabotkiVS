@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ee26d7d-c339-449b-96d2-c707726a9b83">
+  <name>ЗагрузкаДанныхАнвиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анвиз: Загрузка данных </value>
+  </synonym>
+  <methodName>CommonModule.ОбменДаннымиАнвиз.ЗагрузитьДанные</methodName>
+  <description>Анвиз: Загрузка данных </description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

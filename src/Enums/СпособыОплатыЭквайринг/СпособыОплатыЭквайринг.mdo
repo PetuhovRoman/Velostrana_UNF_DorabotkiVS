@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5d5f2047-7ab1-489e-bc6f-54cdf1a43b38" extendedConfigurationObject="bab76d6b-e759-4c94-bac8-b4f0558a38ed">
+  <producedTypes>
+    <refType typeId="a4b8dfa1-da9f-41a9-874b-979750f32c58" valueTypeId="e5c12449-352b-4b3c-b82a-2cc803188245"/>
+    <listType typeId="19e456c0-4b66-4772-8e3a-cbebffaf8603" valueTypeId="00536910-0d85-4e1a-b0c8-369da9161849"/>
+    <managerType typeId="6d41a1ad-98d9-4547-8316-1eb1acf1e953" valueTypeId="e4f7d585-148b-4c46-b9ae-b94a5e18c6a1"/>
+  </producedTypes>
+  <name>СпособыОплатыЭквайринг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="81d39ab5-bdc6-40a7-b77e-1972899b0955" extendedConfigurationObject="8005789c-bab0-4813-9f15-c7a86e8825ec">
+    <name>ОплатаКартой</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="94e57736-0dab-408d-a103-4966562f8705" extendedConfigurationObject="48bc0ad3-5a26-49c9-b12a-ef8dc6521323">
+    <name>ОплатаОнлайн</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac0aa07f-6c84-4057-81d2-c15ff1d60484">
+  <producedTypes>
+    <selectionType typeId="c8e709e0-cf46-40f2-a8b8-02560903c135" valueTypeId="7560e826-07da-4b0f-88f7-fafcc04b7a92"/>
+    <listType typeId="c82010b5-22bf-43e9-b270-1fb6f5f92e35" valueTypeId="0e4975bc-b574-4ee5-adf6-d828dc6a2d99"/>
+    <managerType typeId="8fda79aa-4621-4848-8809-8872dd609127" valueTypeId="f765c4c5-46b2-468f-b72d-0859b8b49d88"/>
+    <recordSetType typeId="3765e9b2-e858-4dd9-9a9e-acd39c31431f" valueTypeId="8bc877d0-0bcb-4708-aa05-549fdad65262"/>
+    <recordKeyType typeId="c0bec8f9-610a-4f40-8c29-d20e7dfa90de" valueTypeId="d47f59e4-c70e-4e29-97fc-48cb2eae2f74"/>
+    <recordType typeId="c35842f9-b427-43ca-b31c-7a3574b4d424" valueTypeId="9bf527b4-049f-4439-9590-a9ab3f6d6038"/>
+    <recordManagerType typeId="3504c79e-4ad6-4b4d-b399-5e55e6727c1d" valueTypeId="b874110b-884c-4825-a54f-47af224552a3"/>
+  </producedTypes>
+  <name>ОтветственныеЗаЗаказыПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные за заказы покупателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a1cb343e-e20f-497c-bff5-7ffd97a00b68">
+    <name>БезПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не проверять подключение к базе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="711036ab-1602-497e-ad13-8f5b25e1e559">
+    <name>ИсточникЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник заказа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникиПривлеченияПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5edb43a1-2b1b-4fec-a2a3-1c17be2b2858">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный, принявший заказ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
